@@ -84,6 +84,7 @@ XCG <price>, listed by <Seller>.
 <One useful line: what it suits, from the listing itself, never invented.>
 
 Details come from <Seller>'s listing. Always check the original listing and contact the seller for official details.
+(If the photo was AI-expanded:) Background extended with AI; the car is shown as photographed.
 Link in the first comment.
 #Curaçao #CuraçaoCars #CarsForSale
 ```
@@ -158,7 +159,7 @@ The daily run reads the merkado-cw repo and live merkado.cw to find news worth p
 ### Design (Figma)
 1. `create_session` on file `Km2x15bnTmb9R8LbnEvQTT`, then load the figma-use skill before any `use_figma` call.
 2. Duplicate the template frame from page **Templates v1 · Locked (22 Oct 2026)** (node IDs in STYLE.md) onto the page **Posts · <ISO week>** (create it if missing). Name the frame `<date> · <series> · <slug>`.
-3. Replace only the content (texts, photo, chip label). Never move, restyle or recolour template parts. Follow the photo rules in STYLE.md.
+3. Replace only the content (texts, photo, chip label). Never move, restyle or recolour template parts. Follow the photo rules in STYLE.md (AI expansion with its guardrails, or the blurred backdrop).
 4. Photos: `upload_assets` with `nodeIds` set to the photo rectangle(s), then POST the image bytes to each submit URL (from the shell, or from the browser tab when the shell cannot reach figma.com).
 5. Check the result with `get_screenshot`: no text overflow past the 72 px margins, no clipped words, photo shows the subject.
 
@@ -191,14 +192,15 @@ Must not:
 
 ## 12. The weekly run (Sunday)
 
-1. Read this playbook, STYLE.md, CALENDAR.md, LEARNINGS.md, `state/`. If T11 or T12 has no node in `state/templates.json`, build it first from its `build_if_missing` spec, check it with a screenshot, and save the node id.
+1. Read this playbook, STYLE.md, CALENDAR.md, LEARNINGS.md, `state/`. Check whether Figma Weave is linked (`weave_find_model` with query "expand image"); if it is, use AI-expanded listing photos (STYLE.md, version A), otherwise the blurred backdrop (version B).
 2. Analytics for the last 7 days and the last 28 days (Metricool): reach, interactions, saves, shares, followers gained per network, per post. Write 3 to 5 findings and 1 change to try next week in LEARNINGS.md.
 3. Check last week's drafts: which were approved, edited or left. Learn from edits (compare the published caption to the draft).
 4. Plan next week from CALENDAR.md, adjusted by the findings. If it is the first full week of a month, include Island Index.
 5. Pick listings (section 7), run the pre-flight, render, export, push, create drafts.
 6. Captions file `captions/<YYYY>-W<ww>.md`.
 7. Update CALENDAR.md (what was planned, what is drafted) and `state/posts.csv`. Commit and push.
-8. Report (section 14) and push-notify: "Week <ww> is ready: <n> drafts waiting in Metricool."
+8. Update the Social HQ page (artifact `https://claude.ai/artifact/TkELSi7UsrQCugHZ88b6im`): read it first with the Artifact tool (`action: read`), replace only the part between `<!-- THIS-WEEK:START` and `<!-- THIS-WEEK:END -->` with this week's drafts (thumbnails published as files under `week/`, date, slot, title, status) and last week's top numbers, then publish to the same url. Leave the rest of the page as it is.
+9. Report (section 14) and push-notify: "Week <ww> is ready: <n> drafts waiting in Metricool."
 
 ## 13. The daily run (morning)
 

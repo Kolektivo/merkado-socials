@@ -18,20 +18,33 @@ Figma file: `Km2x15bnTmb9R8LbnEvQTT`. Page: **Templates v1 · Locked (22 Oct 202
 | T08 | Find home · Island map | `37:91` | 1080×1350 | Island map with every pinned listing, headline bottom left. Re-render the map monthly. |
 | T09 | Find home · Neighbourhoods | `37:98` | 1080×1350 | Top six neighbourhoods with live counts. |
 | T10 | Story · Listing (vertical photo) | `37:134` | 1080×1920 | Only for portrait photos. Full-bleed photo, card in the sky. |
-| T11 | Story · Listing (landscape photo) | see `state/templates.json` (built on the first run from its spec) | 1080×1920 | Default story for real listing photos. |
-| T12 | Listing · Car (landscape photo) | see `state/templates.json` (built on the first run from its spec) | 1080×1350 | Default feed post for real car photos. |
+| T11 | Story · Listing (landscape photo) | `45:136` | 1080×1920 | Default story for real listing photos. Sample: 2016 Land Cruiser Prado. |
+| T12 | Listing · Car (landscape photo) | `45:546` | 1080×1350 | Default feed post for real car photos. Sample: 2023 Kia Soul. |
 
 `state/templates.json` holds the current node id of every template, including T11 and T12. If a node id there and in this table disagree, `state/templates.json` wins.
 
 ## Real listing photos (most are landscape)
 
-Dealer and agency photos are 16:9 or 4:3, often with a watermark or a banner. Rules:
+Dealer and agency photos are 16:9 or 4:3, often with a watermark or a banner. Two ways to fill the frame, in this order:
 
-1. Use T11 and T12 for landscape photos. They place the photo in a fixed window (cover crop, centred) over a backdrop made of the same photo, blurred (layer blur 120) with a Surface dark shade at 55%.
-2. Crop only to remove empty space or a banner strip at the edge. Never crop into the car or the building.
-3. Never extend, repaint or generate parts of a listing photo with AI. It is real inventory: invented pixels mislead buyers and alter the seller's photo. AI images are only for brand posts, never for a specific listing, and posts with AI imagery set `isAiGenerated: true`.
-4. Keep dealer watermarks as they are (they are the seller's credit). Skip photos where a banner covers the car.
-5. Prefer the first photo; use another photo of the same listing if the first is weak.
+### A. AI-expanded photo (preferred, approved by the Product Lead on 22 Oct 2026)
+Merkado uses AI, so listing photos may be expanded with AI to fill the 4:5 or 9:16 frame. Guardrails, all required:
+1. Expand outward only. Every original pixel stays as it is; the car or the property is never added to, removed from, redrawn or "improved".
+2. Only background continues: sky, wall, ceiling, floor, road, garden, sea. No new cars, people, signs, text, logos or buildings.
+3. Check the result at full size before using it. If anything in rule 1 or 2 is broken, use version B instead.
+4. Set `isAiGenerated: true` on the Metricool post (Instagram asks for AI-edited photos to be labelled), and add this line to the caption disclaimer: "Background extended with AI; the car (or home) is shown as photographed."
+5. Tool: an image-expand (outpainting) model through Figma Weave (`weave_find_model`, `weave_upload_asset`, `weave_run_model`). Needs the Product Lead's Figma account linked to Weave. Figma's `generate_image` cannot expand an existing photo.
+6. Layout with an expanded photo: use T10 (story) or T02 (feed) and place the expanded photo full-bleed, card where the template has it.
+
+### B. Blurred backdrop (fallback, always available)
+T11 and T12 place the whole photo, full width and uncropped (height from the photo's own ratio, at most 700 px on feed), over a backdrop of the same photo blurred (layer blur 120) under a Surface dark shade at 62%. Story: photo starts 56 px below the card. Feed: photo at y 150, card bottom at y 1278.
+
+### Always
+- Crop only to remove empty space or a banner strip at the edge. Never crop into the car or the building.
+- Keep dealer watermarks as they are (they are the seller's credit). Skip photos where a banner covers the subject.
+- Prefer the first photo; use another photo of the same listing if the first is weak.
+- AI images that show no specific listing (brand posts) are fine with `isAiGenerated: true`. AI never creates a listing that does not exist.
+- Long car titles wrap to two lines inside the card (component width 824). Make and model in ink, variant in grey.
 
 ## Grid and type
 

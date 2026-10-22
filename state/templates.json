@@ -1,0 +1,28 @@
+{
+  "file": "Km2x15bnTmb9R8LbnEvQTT",
+  "page": "37:2",
+  "page_name": "Templates v1 · Locked (22 Oct 2026)",
+  "templates": {
+    "T01": { "node": "37:3", "name": "Brand · The comment section" },
+    "T02": { "node": "37:15", "name": "Listing · Car (vertical photo)" },
+    "T03": { "node": "37:21", "name": "Listing · Property" },
+    "T04": { "node": "37:34", "name": "Island numbers" },
+    "T05": { "node": "37:43", "name": "Guide · Cover" },
+    "T06": { "node": "37:51", "name": "Guide · Inside slide" },
+    "T07": { "node": "37:80", "name": "List on Merkado" },
+    "T08": { "node": "37:91", "name": "Find home · Island map" },
+    "T09": { "node": "37:98", "name": "Find home · Neighbourhoods" },
+    "T10": { "node": "37:134", "name": "Story · Listing (vertical photo)" },
+    "T11": {
+      "node": null,
+      "name": "Story · Listing (landscape photo)",
+      "build_if_missing": "Clone T10 next to it. Photo rectangle becomes the backdrop: same listing photo, FILL, resized to 1680x2520 at (-300,-300), LAYER_BLUR 120. 'Top shade' becomes a full-frame Surface dark (#141414) shade at 55%. Add rectangle 'Photo (listing, cover crop)' at (0,900) 1080x760 with the listing photo (FILL) above the shade and below the card. Keep logo, chip and card where they are. Save the new node id here."
+    },
+    "T12": {
+      "node": null,
+      "name": "Listing · Car (landscape photo)",
+      "build_if_missing": "Clone T02 next to it. Same backdrop and shade as T11, full frame. Add 'Photo (listing, cover crop)' at (0,150) 1080x781 above the shade; the card stays at y 871 so it overlaps the photo bottom by 60 px. Keep logo, chip and card. Save the new node id here."
+    }
+  },
+  "live_photo_samples": "Contact sheet 37:559 on the locked page holds five live car photos from 22 Oct 2026 (Prado image hash 3932c519721384612601a0b27eeef6c78cf7dae4)."
+}

@@ -1,0 +1,36 @@
+{
+  "repo": "Kolektivo/merkado-cw",
+  "branch": "main",
+  "last_commit": "e9b246ca75b4f0c8b9e1a514857bb909d9ce0e25",
+  "last_commit_title": "Fix daily real-estate enrich failures and slow Economic listing photos.",
+  "last_checked": "2026-10-22",
+  "counts": {
+    "date": "2026-10-22",
+    "cars_active": 232,
+    "real_estate_active": 356,
+    "real_estate_with_map_pin_on_land": 269,
+    "source": "merkado.cw homepage search card (cars) and /api/real-estate/map (real estate), 22 Oct 2026"
+  },
+  "milestones": [
+    { "id": "cars-250", "rule": "cars_active >= 250", "hit": null },
+    { "id": "cars-300", "rule": "cars_active >= 300", "hit": null },
+    { "id": "cars-400", "rule": "cars_active >= 400", "hit": null },
+    { "id": "re-400", "rule": "real_estate_active >= 400", "hit": null },
+    { "id": "re-500", "rule": "real_estate_active >= 500", "hit": null },
+    { "id": "total-750", "rule": "cars_active + real_estate_active >= 750", "hit": null },
+    { "id": "total-1000", "rule": "cars_active + real_estate_active >= 1000", "hit": null },
+    { "id": "first-business-account", "rule": "a business account page (first: Weber and Weber) is live on merkado.cw/businesses", "hit": null },
+    { "id": "payments-live", "rule": "Featured and the extra listing can be bought by every seller (Sentoo allowlist removed); starts the payments launch arc in CALENDAR.md", "hit": null },
+    { "id": "first-featured-car", "rule": "the first paid Featured car is live and its owner agreed to be shown", "hit": null }
+  ],
+  "watch_docs": [
+    "docs/02-scope-and-decisions.md",
+    "docs/09-current-state.md",
+    "docs/10-execution-roadmap.md"
+  ],
+  "known_not_news": [
+    "Property Match (private beta until it is a real Sentoo product)",
+    "Merkado Rent Advance / merkado-labs",
+    "Business accounts until the business page is visible on merkado.cw (code merged 21 Oct; check live)"
+  ]
+}

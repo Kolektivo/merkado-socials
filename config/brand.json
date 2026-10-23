@@ -1,0 +1,61 @@
+{
+  "project": "Merkado",
+  "site": "https://merkado.cw",
+  "language": "en",
+  "timezone": "America/Curacao",
+  "product_lead": {
+    "name": "Enrique",
+    "reviewer_email": "enrique@kolektivo.co"
+  },
+  "socials": {
+    "facebook_page": "merkado.cw",
+    "instagram": "merkado.cw"
+  },
+  "metricool": {
+    "brand_label": "Merkado Curaçao",
+    "blog_id": "7589417",
+    "timezone": "America/La_Paz"
+  },
+  "figma": {
+    "file_key": "Km2x15bnTmb9R8LbnEvQTT",
+    "templates_page": "37:2",
+    "brand_assets_page": "10:18"
+  },
+  "repos": {
+    "this": "Kolektivo/merkado-socials",
+    "product_read_only": "Kolektivo/merkado-cw"
+  },
+  "data": {
+    "cars": "https://merkado.cw/api/cars?sort=newest&page={n}",
+    "cars_count": "https://merkado.cw/api/cars/count",
+    "real_estate": "https://merkado.cw/api/real-estate/map",
+    "real_estate_count": "https://merkado.cw/api/real-estate/count",
+    "image_proxy": "https://merkado.cw/_next/image?url={url}&w=1920&q=90",
+    "car_page": "https://merkado.cw/car/{slug}",
+    "real_estate_page": "https://merkado.cw/real-estate/{slug}"
+  },
+  "hosting": {
+    "asset_base_url": "https://raw.githubusercontent.com/Kolektivo/merkado-socials/main/"
+  },
+  "hq_artifact": "https://claude.ai/artifact/TkELSi7UsrQCugHZ88b6im",
+  "campaign_line": "Made to search, not scroll.",
+  "colors": {
+    "violet_500": "#564EE4",
+    "violet_50": "#EEEDFC",
+    "violet_100": "#CBC8F7",
+    "violet_700": "#3D37A2",
+    "violet_900": "#242160",
+    "surface_dark": "#141414",
+    "background": "#FAF9F8",
+    "white": "#FFFFFF"
+  },
+  "fonts": {
+    "display": "Inter Display Semi Bold",
+    "ui": "Inter"
+  },
+  "allowed_domains_needed": [
+    "merkado.cw",
+    "figma.com",
+    "mcp.figma.com"
+  ]
+}

@@ -55,5 +55,5 @@
     }
   },
   "live_photo_samples": "Contact sheet 37:559 on the locked page holds five live car photos from 22 Oct 2026 (Prado image hash 3932c519721384612601a0b27eeef6c78cf7dae4).",
-  "ai_expand": "Preferred when Weave is linked: expand the listing photo outward to fill T10 (story) or T02 (feed) full-bleed. Guardrails in STYLE.md section 'Real listing photos'."
+  "ai_expand": "Preferred when Weave is linked: expand the listing photo outward to fill T10 (story) or T02 (feed) full-bleed. Guardrails in docs/04-design-system.md section 'Real listing photos'."
 }

@@ -20,7 +20,7 @@
     { "id": "total-750", "rule": "cars_active + real_estate_active >= 750", "hit": null },
     { "id": "total-1000", "rule": "cars_active + real_estate_active >= 1000", "hit": null },
     { "id": "first-business-account", "rule": "a business account page (first: Weber and Weber) is live on merkado.cw/businesses", "hit": null },
-    { "id": "payments-live", "rule": "Featured and the extra listing can be bought by every seller (Sentoo allowlist removed); starts the payments launch arc in CALENDAR.md", "hit": null },
+    { "id": "payments-live", "rule": "Featured and the extra listing can be bought by every seller (Sentoo allowlist removed); starts the payments launch arc in docs/10-calendar.md", "hit": null },
     { "id": "first-featured-car", "rule": "the first paid Featured car is live and its owner agreed to be shown", "hit": null }
   ],
   "watch_docs": [

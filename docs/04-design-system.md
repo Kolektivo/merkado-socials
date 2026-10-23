@@ -1,4 +1,4 @@
-# Merkado social style: Templates v1 (locked 22 Oct 2026)
+# 04 Design system: Templates v1 (locked 22 Oct 2026)
 
 Approved by the Product Lead on 22 Oct 2026 after five design rounds. Do not change the look without a new approval round. Fill templates; never redesign them.
 

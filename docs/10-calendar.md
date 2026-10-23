@@ -1,4 +1,4 @@
-# Merkado social calendar
+# 10 Calendar and roadmap
 
 Status: Active (22 Oct 2026). Times are Curaçao time. The weekly run fills in listings and updates the Status column.
 Status values: `planned` → `drafted` (in Metricool, waiting for approval) → `approved` → `published`, or `pulled` (pre-flight failed) / `skipped`.
@@ -71,12 +71,12 @@ Before Day 0: get Sentoo's written OK before showing their logo. Launch video st
 
 ## Phase 3. Always on (from 23 Nov)
 
-- Weekly rhythm from PLAYBOOK.md section 5.
+- Weekly rhythm from docs/03-content-playbook.md section 5.
 - First full week of every month: Island Index (T08 map refresh or T04 numbers).
 - What's new and milestones whenever the radar finds them.
 - December: holiday-season angle on "On Merkado now" (cars for family visits, rentals for the season), still only live listings.
 - Partner spotlights once dealers or agencies opt in (Instagram collaboration posts, tagged accounts).
-- Review after 8 weeks (20 Dec): targets in PLAYBOOK.md, mix, times, and whether to add Reels, TikTok or a small paid boost (Product Lead decision).
+- Review after 8 weeks (20 Dec): targets in docs/03-content-playbook.md, mix, times, and whether to add Reels, TikTok or a small paid boost (Product Lead decision).
 
 ## Open decisions (Product Lead)
 

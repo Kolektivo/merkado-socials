@@ -11,6 +11,7 @@
 | `docs/09-current-state.md` | What is set up and working today, what is blocked |
 | `docs/10-calendar.md` | Launch plan and dated calendar |
 | `docs/11-learnings.md` | Weekly findings and experiments |
+| `docs/12-setup.md` | One-time setup and weekly routine for the Product Lead, handy Claude Code prompts |
 | `state/` | Logs: posts, radar watermarks, partners, takedowns, template ids |
 | `config/brand.json` | Everything project-specific in one place (for reuse on other projects) |
 | `.claude/skills/` | weekly-run, daily-check, make-post |

@@ -63,7 +63,20 @@ Mix target per 4 weeks (12 feed posts): 6 On Merkado now, 2 The comment section,
 | Thursday | 19:00 | Story: a live listing (the other category from Tuesday) |
 | Friday | 12:15 | Feed: car listing |
 
-From week 5, replace these times with Metricool's best time to post (`getBestTimeToPostByNetwork`, last 4 weeks) when it shows a clear winner. Record the change in LEARNINGS.md.
+### Finding the best days and times (every weekly run)
+
+These slots are a starting point, not fixed. Every Sunday the agent re-decides days and times from two signals:
+
+1. **Metricool best time to post** (`getBestTimeToPostByNetwork`) for Facebook and Instagram separately, over the last 28 days: which weekdays and hours our audience is most active.
+2. **Our own results**: reach, saves, shares and link clicks of every post from the last 4 to 8 weeks, grouped by weekday and time block (morning, lunch, evening) and by series, so a strong series is not mistaken for a strong day.
+
+Rules for changing the schedule:
+- Weeks 1 to 3: collect data, change nothing (too little data on a new account).
+- From week 4: move a slot only when both signals point the same way, or when one slot beats the others by at least 30% on average reach over 3 or more posts.
+- Change one thing per week (one day or one time), so the effect can be measured. Keep 3 feed posts and 2 Stories a week unless LEARNINGS.md shows more helps.
+- Facebook and Instagram may get different times. If they differ by more than 2 hours, schedule the network posts separately.
+- Monthly: test one new slot (for example Saturday morning or Sunday evening) with a listing post and compare.
+- Write every change and its result in LEARNINGS.md, and update the table above and CALENDAR.md.
 
 ## 6. Voice and captions
 
@@ -193,7 +206,7 @@ Must not:
 ## 12. The weekly run (Sunday)
 
 1. Read this playbook, STYLE.md, CALENDAR.md, LEARNINGS.md, `state/`. Check whether Figma Weave is linked (`weave_find_model` with query "expand image"); if it is, use AI-expanded listing photos (STYLE.md, version A), otherwise the blurred backdrop (version B).
-2. Analytics for the last 7 days and the last 28 days (Metricool): reach, interactions, saves, shares, followers gained per network, per post. Write 3 to 5 findings and 1 change to try next week in LEARNINGS.md.
+2. Analytics for the last 7 days and the last 28 days (Metricool): reach, interactions, saves, shares, followers gained per network, per post, plus best time to post per network. Re-decide days and times with section 5 "Finding the best days and times". Write 3 to 5 findings and 1 change to try next week in LEARNINGS.md.
 3. Check last week's drafts: which were approved, edited or left. Learn from edits (compare the published caption to the draft).
 4. Plan next week from CALENDAR.md, adjusted by the findings. If it is the first full week of a month, include Island Index.
 5. Pick listings (section 7), run the pre-flight, render, export, push, create drafts.

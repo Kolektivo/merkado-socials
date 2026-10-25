@@ -5,7 +5,7 @@ Last updated: 23 Oct 2026.
 ## Working
 - Templates v1 locked in Figma (page 37:2), including T11 story and T12 car feed for real landscape photos (45:136, 45:546).
 - Metricool connected: Facebook Page and Instagram merkado.cw. Baseline 22 Oct: Instagram 13 followers, Facebook 4.
-- Scheduled tasks created 22 Oct: weekly run (Sundays 16:37 Curaçao) and daily check (07:36). Cloud only, push notifications on.
+- Scheduled tasks created 22 Oct: weekly run (Sundays 16:37 Curaçao) and daily check (07:36). **Paused 24 Oct by the Product Lead** until the Claude Code setup is done. Turn back on from claude.ai scheduled tasks or by asking Claude.
 - Launch week ready: Monday "The comment section" and Wednesday island map images in `assets/2026-W44/`.
 - Social HQ page for the Product Lead.
 

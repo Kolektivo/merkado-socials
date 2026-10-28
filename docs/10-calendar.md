@@ -1,6 +1,6 @@
 # 10 Calendar and roadmap
 
-Status: Active (22 Oct 2026). Times are Curaçao time. The weekly run fills in listings and updates the Status column.
+Status: On hold (28 Oct 2026). The 26 Oct launch did not happen; the dates below are the original plan and get re-planned once the Claude Code setup is done. Times are Curaçao time. The weekly run fills in listings and updates the Status column.
 Status values: `planned` → `drafted` (in Metricool, waiting for approval) → `approved` → `published`, or `pulled` (pre-flight failed) / `skipped`.
 
 ## Phase 0. Get ready (Thu 22 to Sun 25 Oct)

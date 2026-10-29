@@ -5,9 +5,9 @@ One-time setup, then a weekly 10-minute habit. Windows 11 + PowerShell.
 ## One time
 
 1. **Approve the first push.** Reply "Approved, commit and push" in the Claude chat that built this repo. Result: the repo appears on GitHub with these files.
-2. **Allow the domains.** On claude.ai in a web browser: Settings → Capabilities → allowed domains. Add `merkado.cw`, `figma.com`, `mcp.figma.com`. (Team plan: your admin does it under Organization settings → Capabilities.) Result: the Sunday run can read listings and use Figma.
-3. **Link Figma to Weave.** Open https://app.weavy.ai/settings?section=profile, sign in, link your Figma account. Result: AI photo expansion works.
-4. **Paste the profile texts** from `captions/profile.md` into Instagram (Edit profile) and the Facebook Page (Edit details).
+2. **Allow the domains for the cloud runs.** On claude.ai/code, open the Default cloud environment's settings and set Network access to Custom with the domain list in `docs/05-architecture-and-integrations.md` ("Network access for cloud runs"). Result: the Sunday run can read listings, check seller sites and use Figma.
+3. **Weave:** linked on 28 Oct; no longer needed (AI photo extension is switched off).
+4. **Profile set-up (10 minutes).** Instagram: pin the launch post now (open the post, tap the three dots, Pin to your profile), and pin List on Merkado and the Island map once they are live. Add story Highlights Cars, Homes, Bargains, Guides, Sell (Claude makes the covers). Optional: the bio and tracked link from `captions/profile.md`. Facebook: your Page, Settings, Page setup, Category: set Internet company first and keep Real estate second.
 5. **Install Git for Windows** if you don't have it: https://git-scm.com/downloads/win (all default options).
 6. **Install Claude Code** (skip if `claude --version` already prints a version). In PowerShell:
    ```powershell

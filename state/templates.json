@@ -1,59 +1,42 @@
 {
   "file": "Km2x15bnTmb9R8LbnEvQTT",
-  "page": "37:2",
-  "page_name": "Templates v1 · Locked (22 Oct 2026)",
+  "page": "88:182",
+  "page_name": "Templates v2 · 29 Oct 2026",
+  "approved": "29 Oct 2026 by the Product Lead (carousels 28 Oct, story styles B and C 29 Oct)",
   "templates": {
-    "T01": {
-      "node": "37:3",
-      "name": "Brand · The comment section"
-    },
-    "T02": {
-      "node": "37:15",
-      "name": "Listing · Car (vertical photo)"
-    },
-    "T03": {
-      "node": "37:21",
-      "name": "Listing · Property"
-    },
-    "T04": {
-      "node": "37:34",
-      "name": "Island numbers"
-    },
-    "T05": {
-      "node": "37:43",
-      "name": "Guide · Cover"
-    },
-    "T06": {
-      "node": "37:51",
-      "name": "Guide · Inside slide"
-    },
-    "T07": {
-      "node": "37:80",
-      "name": "List on Merkado"
-    },
-    "T08": {
-      "node": "37:91",
-      "name": "Find home · Island map"
-    },
-    "T09": {
-      "node": "37:98",
-      "name": "Find home · Neighbourhoods"
-    },
-    "T10": {
-      "node": "37:134",
-      "name": "Story · Listing (vertical photo)"
-    },
-    "T11": {
-      "node": "45:136",
-      "name": "Story · Listing (landscape photo)",
-      "layout": "Backdrop = same photo blurred 120 at (-300,-300) 1680x2520 under Surface dark 62%; photo full width, height from its ratio (max 810), y = card bottom + 56; card at y 350 (grows with 2-line titles)."
-    },
-    "T12": {
-      "node": "45:546",
-      "name": "Listing · Car (landscape photo)",
-      "layout": "Backdrop = same photo blurred 120 under Surface dark 62%; photo full width at y 150, height from its ratio (max 700, centre crop beyond that); card bottom at y 1278."
+    "C1": {"node": "88:210", "name": "Carousel cover · violet", "use": "Car or real estate carousel cover in a violet grid slot. Headline Display L, one row per listing, faint .cw tag."},
+    "C2": {"node": "88:227", "name": "Carousel cover · paper", "use": "Same cover for a paper grid slot. Tag in Violet 500 at 6%."},
+    "C3": {"node": "88:244", "name": "Listing slide · car", "use": "Paper, photo 936 x 700 rounded, name, price, specs, Via."},
+    "C4": {"node": "88:259", "name": "Listing slide · home", "use": "As C3; title is the neighbourhood, specs start with the home type."},
+    "C5": {"node": "88:274", "name": "End slide · violet", "use": "Search all <count> cars / homes on merkado.cw, dated count."},
+    "S1": {"node": "88:281", "name": "Story · style C", "use": "Violet, the reason as the headline, photo 936 x 702, name, price, Via. For listings with a reason."},
+    "S2": {"node": "82:212", "name": "Story · style B", "use": "Paper, the price as the headline. For bargains and verified price drops."},
+    "M1": {"node": "37:3", "name": "The comment section", "use": "Brand post, paper only."},
+    "M2": {"node": "37:80", "name": "List on Merkado", "use": "Sellers, violet."},
+    "M3": {"node": "37:91", "name": "Island Index · map", "use": "Monthly map with live pins, paper only."},
+    "M4": {"node": "37:98", "name": "Island Index · neighbourhoods", "use": "Top neighbourhoods with live counts, paper."},
+    "M5": {"node": "37:34", "name": "Island numbers / milestone", "use": "Live counts and milestones."},
+    "M6": {"node": "37:43", "name": "Guide cover", "use": "Before you buy and What's new covers. Make a violet or paper version to fit the grid slot."},
+    "M7": {"node": "37:51", "name": "Guide inside slide", "use": "Steps and checklists after M6."}
+  },
+  "posts_pages": {
+    "2026-W44": "88:183",
+    "2026-W45": "88:184",
+    "upcoming_drafts": "88:185"
+  },
+  "one_off_library": {
+    "page": "88:186",
+    "note": "Inspiration for unique posts, never reused as is: every unique post gets a new design in the brand system.",
+    "frames": {
+      "25:3": "Made to search, not scroll · comment cards and search bar (paper)",
+      "25:57": "Made to search, not scroll · giant search bar with live neighbourhood counts (violet)",
+      "27:46": "Find your next home · neighbourhoods list (paper)",
+      "27:91": "Find your next home · Buy/Rent toggle with property cards (light violet; sample photos and data must be replaced with real, checked listings)",
+      "28:64": "Story · full photo with card in the sky (needs a tall photo)",
+      "28:93": "Story · violet headline",
+      "28:119": "Story · price panel"
     }
   },
-  "live_photo_samples": "Contact sheet 37:559 on the locked page holds five live car photos from 22 Oct 2026 (Prado image hash 3932c519721384612601a0b27eeef6c78cf7dae4).",
-  "ai_expand": "Preferred when Weave is linked: expand the listing photo outward to fill T10 (story) or T02 (feed) full-bleed. Guardrails in docs/04-design-system.md section 'Real listing photos'."
+  "brand_assets_page": "10:18",
+  "background_tag": "Upright .cw tag about 2086 x 1115 at x 345, y 408 on a 1080 x 1350 frame, white at 7% on violet, Violet 500 at 5 to 6% on paper (Product Lead design, Figma 78:534 on page 88:187)."
 }

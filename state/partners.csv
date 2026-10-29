@@ -1,6 +1,8 @@
 seller,kind,instagram,facebook,status,consent_date,notes
 Carteam Willemstad,car dealer,,,credited,,Handles not verified yet. Do not tag until verified.
-SeriDomi,car dealer,,,credited,,Photos carry a top banner; crop the banner strip or use another photo.
-Economic Auto Center,car dealer,,,credited,,Data issue 22 Oct 2026: several slugs and years disagree with titles. Check year and price at the source before posting.
+SeriDomi,car dealer,,,credited,,Every photo carries a large top banner: skip until a clean photo exists. Also lists cars for private people (credit SeriDomi only). 28 Oct: shows the 2020 Honda CR-V as sold while merkado.cw lists it active.
+Economic Auto Center,car dealer,,,credited,,No mileage on any listing; several slugs disagree with titles; economic.cw answers 403 to automated checks (28 Oct), so listings cannot pass the pre-flight. Skip for now.
 CuraCars,car marketplace,,,credited,,
 RE/MAX BonBini Curaçao,real estate agency,,,credited,,Two listings had coordinates in the sea (Harmonie and Blue Bay) on 22 Oct 2026.
+Keller Williams Curaçao,real estate agency,,,credited,,Clean photos.
+Moret Real Estate,real estate agency,,,credited,,Corner MORET logo on every photo: subtle enough to use; never crop it out.

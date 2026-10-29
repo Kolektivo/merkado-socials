@@ -1,59 +1,62 @@
 # 10 Calendar and roadmap
 
-Status: On hold (28 Oct 2026). The 26 Oct launch did not happen; the dates below are the original plan and get re-planned once the Claude Code setup is done. Times are Curaçao time. The weekly run fills in listings and updates the Status column.
+Status: Live from Thu 29 Oct 2026 (launch moved from 26 Oct by the Product Lead on 28 Oct). Times are Curaçao time. The weekly run fills in listings and updates the Status column. Listings named for later weeks are picks from 28 Oct; each gets a fresh pre-flight when drafted and is swapped if it fails.
 Status values: `planned` → `drafted` (in Metricool, waiting for approval) → `approved` → `published`, or `pulled` (pre-flight failed) / `skipped`.
 
-## Phase 0. Get ready (Thu 22 to Sun 25 Oct)
+## Phase 0. Get ready (22 to 28 Oct)
 
 | What | Who | Status |
 | --- | --- | --- |
 | Style locked: Templates v1 in Figma | Agent | done 22 Oct |
-| Approve: agent may push to this repo; add merkado.cw and figma.com to the allowed domains | Product Lead | waiting |
-| Instagram bio, link and Facebook Page details (text in captions/profile.md) | Product Lead | waiting |
-| Invite friends to like the Facebook Page (one time, from the Page) | Product Lead | optional |
-| Launch week drafts in Metricool | Agent | after approval |
+| Profiles on Instagram and Facebook | Product Lead | live as they are (28 Oct); optional tweak in captions/profile.md |
+| Launch drafts in Metricool | Agent | done 28 Oct |
+| Approve pushes to this repo, set up the cloud runs | Product Lead | waiting |
 
-## Phase 1. Launch: "Made to search, not scroll." (26 Oct to 22 Nov)
+## Phase 1. Launch: "Made to search, not scroll." (29 Oct to 22 Nov)
 
-### Week 44 (26 Oct to 1 Nov): launch week
+### Week 44 (29 Oct to 1 Nov): launch
 
 | Date | Time | Slot | Template | Content | Status |
 | --- | --- | --- | --- | --- | --- |
-| Mon 26 Oct | 12:15 | Feed | T01 | The comment section: "Price? PM. Still available?? Location? Or just search." Launch opener. | planned |
-| Tue 27 Oct | 19:00 | Story | T11 | Live car: 2016 Toyota Land Cruiser Prado, Carteam Willemstad | planned |
-| Wed 28 Oct | 18:30 | Feed | T08 | Island Index: every pinned listing on the island map | planned |
-| Thu 29 Oct | 19:00 | Story | T11 | Live car (second pick, different seller) | planned |
-| Fri 30 Oct | 12:15 | Feed | T12 | On Merkado now: live car | planned |
+| Thu 29 Oct | 12:15 | Feed | T01 | The comment section: "Price? PM. Still available?? Location? Or just search." Launch opener. | scheduled (approved 28 Oct) |
+| Thu 29 Oct | 19:00 | Story | Story, no AI | 2016 Kia Sorento 7-seater, 158.000 km, XCG 19.800,-, CuraCars (family, under XCG 20.000) | scheduled (approved 29 Oct) |
+| Fri 30 Oct | 12:15 | Feed | Car carousel (5 slides) | City cars under XCG 20.000, one per seller: Letin Mengo (Carteam), Chevrolet Spark (CuraCars), Kia Picanto (private seller on Merkado) | scheduled (approved 28 Oct) |
 
 ### Week 45 (2 to 8 Nov)
 
-| Date | Time | Slot | Template | Content | Status |
-| --- | --- | --- | --- | --- | --- |
-| Mon 2 Nov | 12:15 | Feed | T05 + T06 | Before you buy: used car checklist (from the published Resource) | planned |
-| Tue 3 Nov | 19:00 | Story | T10/T11 | Live car | planned |
-| Wed 4 Nov | 18:30 | Feed | T03 | On Merkado now: live home for sale | planned |
-| Thu 5 Nov | 19:00 | Story | T11 | Live listing | planned |
-| Fri 6 Nov | 12:15 | Feed | T12 | On Merkado now: live car | planned |
+Listings here are the market scan's picks on 28 Oct (`scripts/market_scan.py`), each with its angle. The weekly run re-picks on Sunday 1 Nov.
+
+| Date | Time | Slot | Template | Content | Angle | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mon 2 Nov | 12:15 | Feed | T08 (paper) | Island Index: every pinned listing on the island map, re-rendered with that day's pins | Data, first Monday of the month | planned |
+| Tue 3 Nov | 19:00 | Story | T10 | 2015 Chrysler 200 listed on Merkado by a private seller, XCG 5.000,- (cheapest sedan on Merkado; tall phone photo, so full-photo story without AI) | Native, bargain | planned |
+| Wed 4 Nov | 18:30 | Feed | Real estate carousel (5 slides) | Rentals under XCG 3.000, one per agency: Santa Catharina (RE/MAX), Steenrijk (Keller Williams), Bottelier (Moret) | Bargain | scheduled (approved 28 Oct; re-check listings by 3 Nov) |
+| Thu 5 Nov | 19:00 | Story | T10 | New rental: 1-bedroom apartment in Steenrijk, XCG 1.851,- a month, Keller Williams | Just added, rent under XCG 3.000 | planned |
+| Fri 6 Nov | 12:15 | Feed | Car carousel, paper cover | Just added this week, one per seller | New | planned |
 
 ### Week 46 (9 to 15 Nov)
 
-| Date | Time | Slot | Template | Content | Status |
-| --- | --- | --- | --- | --- | --- |
-| Mon 9 Nov | 12:15 | Feed | T01 | The comment section, homes edition ("Price? Which area? Still for rent??") | planned |
-| Tue 10 Nov | 19:00 | Story | T11 | Live listing | planned |
-| Wed 11 Nov | 18:30 | Feed | T09 | Island Index: neighbourhoods with the most listings | planned |
-| Thu 12 Nov | 19:00 | Story | T11 | Live listing | planned |
-| Fri 13 Nov | 12:15 | Feed | T12 | On Merkado now: live car | planned |
+| Date | Time | Slot | Template | Content | Angle | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mon 9 Nov | 12:15 | Feed | T07 (violet) | List on Merkado: free to list, 2 listings included, WhatsApp contact (claims checked on /pricing that day) | Sellers | planned |
+| Tue 10 Nov | 19:00 | Story | T10 | Best car pick of the week (native or verified price drop first) | From the scan | planned |
+| Wed 11 Nov | 18:30 | Feed | Real estate carousel, paper cover | Homes with a pool, one per agency | Lifestyle | planned |
+| Thu 12 Nov | 19:00 | Story | T10 | Best home pick of the week | From the scan | planned |
+| Fri 13 Nov | 12:15 | Feed | Car carousel, violet cover | Under XCG 15.000 or price drops, one per seller | Bargain | planned |
 
 ### Week 47 (16 to 22 Nov)
 
 | Date | Time | Slot | Template | Content | Status |
 | --- | --- | --- | --- | --- | --- |
-| Mon 16 Nov | 12:15 | Feed | T07 | List on Merkado: free to list, WhatsApp contact (claims checked on /pricing that day) | planned |
+| Mon 16 Nov | 12:15 | Feed | T01 (paper) | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?"), Figma 85:183 | Brand | planned |
+| Mon 23 Nov | 12:15 | Feed | T05 + T06, violet cover | Before you buy: used car checklist (from merkado.cw/resources/used-car-checklist-curacao) | planned |
 | Tue 17 Nov | 19:00 | Story | T11 | Live listing | planned |
 | Wed 18 Nov | 18:30 | Feed | T03 | On Merkado now: live home for rent | planned |
 | Thu 19 Nov | 19:00 | Story | T11 | Live listing | planned |
 | Fri 20 Nov | 12:15 | Feed | T12 | On Merkado now: live car | planned |
+
+
+Grid order (Product Lead, 29 Oct): feed posts alternate paper and violet. From the launch: Thu 29 Oct paper, Fri 30 Oct violet, Mon 2 Nov paper, Wed 4 Nov violet, Fri 6 Nov paper, Mon 9 Nov violet, Wed 11 Nov paper, Fri 13 Nov violet, Mon 16 Nov paper, and so on. The business-pages What's new post waits until Weber & Weber has listings on its page (it showed none on 29 Oct).
 
 ## Phase 2. Payments launch (starts the day payments open to every seller)
 

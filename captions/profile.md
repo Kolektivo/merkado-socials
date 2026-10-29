@@ -2,6 +2,8 @@
 
 For the Product Lead to paste once. The agent cannot edit profiles through Metricool.
 
+Live on 28 Oct 2026 (set by the Product Lead, fine for launch): Instagram name "Merkado Curaçao | Cars & Real Estate", bio "Cars & Real Estate for sale in Curaçao / Browse • Buy • Sell", link merkado.cw. Facebook Page "Merkado Curaçao", intro "Cars & Real Estate for Sale in Curaçao / Browse • Buy • Sell", category Real Estate, link merkado.cw. The texts below are an optional upgrade: they add the campaign line and a tracked link so profile clicks show up in analytics.
+
 ## Instagram (@merkado.cw)
 
 Where: Instagram app → Profile → Edit profile.

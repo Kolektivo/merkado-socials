@@ -20,7 +20,29 @@ Interactive work (new templates, campaigns, fixes) happens in Claude Code or Cur
 
 ## Network access for cloud runs
 
-Cloud sessions can only reach allowed domains. Needed: `merkado.cw`, `figma.com`, `mcp.figma.com` (GitHub is allowed by default). Set on claude.ai in a web browser: Settings → Capabilities (Team plans: Organization settings → Capabilities, by an admin).
+Cloud runs (Claude Code routines) can only reach the domains their cloud environment allows. The Figma and Metricool connectors do not need an entry: connector traffic goes through Anthropic, not the session's network. GitHub is allowed by default.
+
+Set it on claude.ai/code: environment selector (first control under the message box) → Cloud → hover the **Default** environment → settings icon → **Network access** → **Custom**, tick **Also include default domains**, and list one per line:
+
+```
+merkado.cw
+figma.com
+*.figma.com
+autobedrijfwillemstad.com
+*.autobedrijfwillemstad.com
+curacars.com
+*.curacars.com
+seridomi.com
+economic.cw
+*.economic.cw
+realestate-curacao.com
+*.realestate-curacao.com
+kw-curacao.com
+moretrealestate.com
+monumentenzorg.cw
+```
+
+Figma's domains are needed because photo uploads and image exports go from the shell. The seller sites are needed for the pre-flight check at the source. Add a domain here when a new seller source appears. Note: claude.ai Settings → Capabilities → "Allow network egress" is a different setting (for claude.ai chats), not used by the cloud runs.
 
 ## How a post is made
 
@@ -33,7 +55,7 @@ Cloud sessions can only reach allowed domains. Needed: `merkado.cw`, `figma.com`
 
 ### Design (Figma)
 1. `create_session` on file `Km2x15bnTmb9R8LbnEvQTT`, then load the figma-use skill before any `use_figma` call.
-2. Duplicate the template frame from page **Templates v1 · Locked (22 Oct 2026)** (node IDs in docs/04-design-system.md) onto the page **Posts · <ISO week>** (create it if missing). Name the frame `<date> · <series> · <slug>`.
+2. Duplicate the template frame from page **Templates v2 · 29 Oct 2026** (`88:182`, node IDs in `state/templates.json`) onto the page **Posts · <ISO week> (<dates>)** (create it if missing). Name the frame `<date> · <series> · <slug>`.
 3. Replace only the content (texts, photo, chip label). Never move, restyle or recolour template parts. Follow the photo rules in docs/04-design-system.md (AI expansion with its guardrails, or the blurred backdrop).
 4. Photos: `upload_assets` with `nodeIds` set to the photo rectangle(s), then POST the image bytes to each submit URL (from the shell, or from the browser tab when the shell cannot reach figma.com).
 5. Check the result with `get_screenshot`: no text overflow past the 72 px margins, no clipped words, photo shows the subject.

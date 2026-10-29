@@ -3,7 +3,7 @@
 | Doc | What it holds |
 | --- | --- |
 | `AGENTS.md` | Rules for every AI session: hard rules, approvals, source priority, standing approvals |
-| `docs/01-goals-and-audience.md` | Why we post, for whom, and the targets |
+| `docs/01-goals-and-audience.md` | Why we post, for whom, the targets, and the social strategy (positioning, brand, pillars, platform signals, growth levers, measurement, risks) |
 | `docs/02-scope-and-decisions.md` | Approved decisions, what is out of scope, superseded ideas, open decisions |
 | `docs/03-content-playbook.md` | Channels, series, rhythm, voice, captions, listing rules, data posts, product radar, reports, takedowns |
 | `docs/04-design-system.md` | Locked templates (Figma node ids), photo rules incl. AI expansion, grid, type, colours |
@@ -13,6 +13,9 @@
 | `docs/11-learnings.md` | Weekly findings and experiments |
 | `docs/12-setup.md` | One-time setup and weekly routine for the Product Lead, handy Claude Code prompts |
 | `state/` | Logs: posts, radar watermarks, partners, takedowns, template ids |
+| `captions/reply-kit.md` | Ready replies for comments and DMs (the Product Lead sends them) |
+| `state/market/` | Our own daily snapshot of public merkado.cw prices and a log of price changes (price drops, counts) |
+| `scripts/market_scan.py` | Snapshot and ranked listing picks with reasons (playbook section 7 "Strategy") |
 | `config/brand.json` | Everything project-specific in one place (for reuse on other projects) |
 | `.claude/skills/` | weekly-run, daily-check, make-post |
 | `docs/private/` | Local only, ignored by Git: notes, ideas, anything confidential |

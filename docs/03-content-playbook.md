@@ -73,6 +73,8 @@ Social should lead to revenue indirectly, never by selling hard. The agent decid
 4. **Plan pitches wait for proof.** A post about Plus or Business comes only after the numbers show people act on seller posts (clicks, new direct listings), and only with claims true on /pricing that day.
 5. **Needs the Product Lead:** anything paid on social itself (a social perk in Featured or Business, collab posts for paying businesses, sponsored guides, boosts).
 
+Partner with Merkado (for dealers, agencies and developers) never lapses: a feed post at least every other month, alternating with List on Merkado, plus a Partner story in the months between. Each one uses a fresh angle (live counts, what partners get, a new feature such as business pages or Featured) and points to the partner form on merkado.cw (Product Lead, 29 Oct 2026).
+
 Seller and business posts stay at about 1 in 6 of all posts, plus the caption lines. The monthly report says how many direct listings Merkado gained.
 
 ## 5. Weekly rhythm (Curaçao time, America/Curacao, UTC-4)

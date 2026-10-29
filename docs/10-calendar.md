@@ -62,6 +62,8 @@ Grid order (Product Lead, 29 Oct): feed posts alternate paper and violet. From t
 
 From Fri 6 Nov every car and real estate carousel caption ends with the soft seller line (playbook section 4, "Earning money, the natural way").
 
+Partner with Merkado repeats at least every other month: Mon 23 Nov (first), a Partner story in December, the next feed post in the second half of January (fresh angle, counts live that day).
+
 December: Mon 14 Dec, List on Merkado, landlords edition ("All rentals on Merkado today come from agencies. List yours directly."), counts live that day. Thu 31 Dec: the monthly Sell it on Merkado story.
 
 ## Phase 2. Payments launch (starts the day payments open to every seller)

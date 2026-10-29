@@ -41,6 +41,7 @@ Weekly rhythm: Monday feed (rotating type below), Tuesday story, Wednesday real 
 | **Island Index** | T08 map, T09 neighbourhoods, T04 numbers | Monday of the first week of each month | Live, dated numbers: every home on the island map, top neighbourhoods, cars by type and make. |
 | **What's new** | T05 + T06 or T04, plus a story | Monday, or next day for big news | Merkado features once they are live (business pages, payments for every seller, car price history, Property Match, new dealers or agencies). |
 | **List on Merkado** | T07 | Monday, about once a month | For sellers: free to list, 2 listings included, WhatsApp contact. Only claims true on /pricing that day. |
+| **Partner with Merkado** | Violet, in the style of the homepage partner banner, plus a story | Monday, about once a month, alternating with List on Merkado | For dealerships, real estate agencies and developers: bring your inventory to Merkado and reach people already searching. Sends them to the "Partner with Merkado" button on merkado.cw. Live, dated counts only. No business names, logos or tags (the businesses directory says inclusion is not a partnership). (Product Lead, 29 Oct 2026) |
 | **Milestones** | T04 | When a threshold is crossed | For example 250 or 300 cars, 400 homes, 1.000 listings. |
 | **Payments launch arc** | Feed, carousel, story, Reel | The day payments open to every seller | See docs/10-calendar.md Phase 2. |
 
@@ -58,7 +59,7 @@ Besides the recurring types, the feed gets one-off posts with their own design, 
 - **Island moments:** Carnival (February), Seú (Easter Monday), Dia di Himno i Bandera (2 July), Dia di Pais Kòrsou (10 October), Sinterklaas (5 December), Christmas and New Year. Light and local, always tied back to cars or homes, never a sales push on a sensitive day.
 - **Campaign posts:** new takes on "Made to search, not scroll." (for example "The comment section" editions or "Scroll vs search" comparisons from earlier design rounds).
 
-Mix per 4 weeks: 8 listing carousels (4 cars, 4 homes), 8 stories, 4 Monday posts (roughly 1 comment section or List on Merkado, 1 guide, 1 Island Index, 1 What's new or extra), plus news when the radar finds it. Adjust with docs/11-learnings.md.
+Mix per 4 weeks: 8 listing carousels (4 cars, 4 homes), 8 stories, 4 Monday posts (roughly 1 comment section, List on Merkado or Partner with Merkado, 1 guide, 1 Island Index, 1 What's new or extra), plus news when the radar finds it. Adjust with docs/11-learnings.md.
 
 ## 5. Weekly rhythm (Curaçao time, America/Curacao, UTC-4)
 

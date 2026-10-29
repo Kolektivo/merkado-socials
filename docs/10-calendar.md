@@ -49,7 +49,8 @@ Listings here are the market scan's picks on 28 Oct (`scripts/market_scan.py`), 
 | Date | Time | Slot | Template | Content | Status |
 | --- | --- | --- | --- | --- | --- |
 | Mon 16 Nov | 12:15 | Feed | T01 (paper) | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?"), Figma 85:183 | Brand | planned |
-| Mon 23 Nov | 12:15 | Feed | T05 + T06, violet cover | Before you buy: used car checklist (from merkado.cw/resources/used-car-checklist-curacao) | planned |
+| Mon 23 Nov | 12:15 | Feed | Violet, partner banner style | Partner with Merkado: for dealerships and agencies (captions/2026-W48.md); two design options first | planned |
+| Mon 30 Nov | 12:15 | Feed | T05 + T06, paper cover | Before you buy: used car checklist (from merkado.cw/resources/used-car-checklist-curacao), moved from 23 Nov | planned |
 | Tue 17 Nov | 19:00 | Story | T11 | Live listing | planned |
 | Wed 18 Nov | 18:30 | Feed | T03 | On Merkado now: live home for rent | planned |
 | Thu 19 Nov | 19:00 | Story | T11 | Live listing | planned |

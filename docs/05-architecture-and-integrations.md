@@ -8,7 +8,7 @@ How the agent is built and how a post is made. Values that change per project li
 | --- | --- | --- |
 | This repo | The agent's memory: rules, style, calendar, learnings, logs, rendered images | GitHub `Kolektivo/merkado-socials` (public, so Metricool can read image URLs) |
 | Skills | Step-by-step procedures any Claude session can run | `.claude/skills/` (weekly-run, daily-check, make-post) |
-| Scheduled tasks | Start a fresh Claude cloud session on a timer that runs a skill | claude.ai scheduled tasks: "Merkado social weekly run" (Sun 16:37 Curaçao), "Merkado social daily check" (daily 07:36) |
+| Cloud routines | Start a fresh Claude cloud session on a timer that runs a skill | claude.ai/code/routines: "Merkado social weekly run" (Sun 16:37 Curaçao, Opus, `trig_01HeGprXitgepcTdbMh6SJAj`), "Merkado social daily check" (daily 07:36, Sonnet, `trig_01MmHKSctQ3PKpsYHdy9iAUT`). Connectors: Figma and Metricool only (no mail or chat tools, so a run cannot message anyone outside the Claude app) |
 | Figma | Locked templates and every rendered post | File `Km2x15bnTmb9R8LbnEvQTT` |
 | Figma Weave | AI photo expansion (outpainting) | Needs the Product Lead's Figma account linked to Weave |
 | Metricool | Drafts, approval, publishing, analytics, best times | Brand "Merkado Curaçao", blogId `7589417` |
@@ -73,9 +73,9 @@ Figma's domains are needed because photo uploads and image exports go from the s
 - Log every post in `state/posts.csv`.
 
 
-## Scheduled task prompts
+## Routine prompts
 
-Kept here so they can be recreated exactly. Both tasks are cloud only, push notifications on.
+Kept here so they can be recreated exactly. Both routines use the Default cloud environment, check out both repos, and are scheduled in UTC (weekly `37 20 * * 0`, daily `36 11 * * *`; Curaçao is UTC-4 all year).
 
 - Weekly run: "Get Kolektivo/merkado-socials (push) and Kolektivo/merkado-cw (read). Read AGENTS.md and follow `.claude/skills/weekly-run/SKILL.md`."
 - Daily check: "Get Kolektivo/merkado-socials (push) and Kolektivo/merkado-cw (read). Read AGENTS.md and follow `.claude/skills/daily-check/SKILL.md`."

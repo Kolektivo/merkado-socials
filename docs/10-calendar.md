@@ -10,7 +10,7 @@ Status values: `planned` → `drafted` (in Metricool, waiting for approval) → 
 | Style locked: Templates v1 in Figma | Agent | done 22 Oct |
 | Profiles on Instagram and Facebook | Product Lead | live as they are (28 Oct); optional tweak in captions/profile.md |
 | Launch drafts in Metricool | Agent | done 28 Oct |
-| Approve pushes to this repo, set up the cloud runs | Product Lead | waiting |
+| Approve pushes to this repo, set up the cloud runs | Product Lead, Agent | done 29 Oct |
 
 ## Phase 1. Launch: "Made to search, not scroll." (29 Oct to 22 Nov)
 

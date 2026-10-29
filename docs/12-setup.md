@@ -30,8 +30,9 @@ One-time setup, then a weekly 10-minute habit. Windows 11 + PowerShell.
 
 ## Every week
 
-- **Sunday evening:** you get a push and an email "Week N is ready". Open Metricool → Planner, check the drafts, press Schedule on the ones you like. Edit captions freely; the agent learns from your edits.
-- **Mornings:** a push only if something needs you (a listing sold, a draft not approved, news found).
+- **Sunday evening:** a new session "Merkado social weekly run" appears in the Claude app (claude.ai/code) with "Week N is ready" and the Social HQ link. Look at the posts, then reply in that session: "Approve all", "Approve 1 and 3", "Change 2: ..." or "Skip 4". The agent schedules what you approved.
+- **Mornings:** the daily check runs at 07:36. Open it only if it says something needs you (a listing sold, news found, a comment to answer).
+- **Manage the runs:** claude.ai/code/routines. Open a routine to pause it, change its time, or press Run now.
 
 ## Handy prompts in Claude Code
 

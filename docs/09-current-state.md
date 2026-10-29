@@ -16,10 +16,10 @@ Last updated: 28 Oct 2026.
 - News radar: merkado-cw main unchanged since 22 Oct (e9b246c). Business pages are live (Weber & Weber), but its page showed no listings on 29 Oct, so the What's new post waits. Payments still limited to the Product Lead; Property Match still private beta.
 
 ## Blocked or waiting
-- Automatic runs: none yet. Proposed: Claude Code cloud routines (weekly run Sundays 16:37, daily check 07:36), once the Product Lead allows the domains and approves pushes.
+- Automatic runs: two cloud routines created 29 Oct 2026, connectors Figma and Metricool only. Weekly run Sundays 16:37 (first run Sun 1 Nov), daily check 07:36 (first run Fri 30 Oct). Not yet tested by a real run.
 - Standing approval for scheduled runs to push: APPROVED 29 Oct 2026 (AGENTS.md).
 - Figma Weave linked 28 Oct, but the free plan allows only 2 runs from the agent (both used). AI photo extension is switched off (not scalable).
-- Cloud environment network access: set by the Product Lead on 28 Oct (Custom list from docs/05). Not yet tested by a cloud run.
+- Cloud environment network access: set by the Product Lead on 28 Oct (Custom list from docs/05). First tested by the daily check on 30 Oct.
 - Metricool review flow (approve by email) not tested; drafts are the default.
 
 ## Known data issues (merkado.cw)

@@ -2,6 +2,10 @@
 
 What the numbers and the Product Lead's edits taught us. The weekly run adds a dated entry at the top. Keep each entry short: findings, one change to try, and the result of last week's change.
 
+## 29 Oct 2026: links in stories
+
+- Instagram's API does not allow link stickers (or other interactive stickers) on stories that publish automatically. Metricool can only do it as a manual post: it sends a phone notification and the person finishes the story in the Instagram app. Our stories stay automatic, without link stickers; the story names the listing and merkado.cw, and the bio link carries the clicks. Revisit if Meta adds link stickers to the API. Sources: help.metricool.com "Content planning: full guide & FAQs" and "Schedule and Post on Instagram".
+
 ## 29 Oct 2026: strategy research
 
 - Instagram names sends/shares and saves among its strongest ranking signals; Reels (and Trial Reels) are the main route to non-followers; search reads name, bio, captions and alt text. Facebook organic Page reach is low; comments, Reels and the right Page category help. Our biggest gap: no video. Experiment to propose: short Reels made from the weekly carousels.

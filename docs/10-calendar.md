@@ -50,6 +50,7 @@ Listings here are the market scan's picks on 28 Oct (`scripts/market_scan.py`), 
 | --- | --- | --- | --- | --- | --- |
 | Mon 16 Nov | 12:15 | Feed | T01 (paper) | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?"), Figma 85:183 | Brand | planned |
 | Mon 23 Nov | 12:15 | Feed | Violet, partner banner style | Partner with Merkado: for dealerships and agencies (captions/2026-W48.md); two design options first | planned |
+| Thu 26 Nov | 19:00 | Story (extra) | Story, style B or C | Sell it on Merkado: list free, buyers contact you on WhatsApp (playbook 4, "Earning money") | planned |
 | Mon 30 Nov | 12:15 | Feed | T05 + T06, paper cover | Before you buy: used car checklist (from merkado.cw/resources/used-car-checklist-curacao), moved from 23 Nov | planned |
 | Tue 17 Nov | 19:00 | Story | T11 | Live listing | planned |
 | Wed 18 Nov | 18:30 | Feed | T03 | On Merkado now: live home for rent | planned |
@@ -58,6 +59,10 @@ Listings here are the market scan's picks on 28 Oct (`scripts/market_scan.py`), 
 
 
 Grid order (Product Lead, 29 Oct): feed posts alternate paper and violet. From the launch: Thu 29 Oct paper, Fri 30 Oct violet, Mon 2 Nov paper, Wed 4 Nov violet, Fri 6 Nov paper, Mon 9 Nov violet, Wed 11 Nov paper, Fri 13 Nov violet, Mon 16 Nov paper, and so on. The business-pages What's new post waits until Weber & Weber has listings on its page (it showed none on 29 Oct).
+
+From Fri 6 Nov every car and real estate carousel caption ends with the soft seller line (playbook section 4, "Earning money, the natural way").
+
+December: Mon 14 Dec, List on Merkado, landlords edition ("All rentals on Merkado today come from agencies. List yours directly."), counts live that day. Thu 31 Dec: the monthly Sell it on Merkado story.
 
 ## Phase 2. Payments launch (starts the day payments open to every seller)
 
@@ -88,3 +93,4 @@ Before Day 0: get Sentoo's written OK before showing their logo. Launch video st
 - Papiamentu and Dutch versions.
 - Phone-shot Reels (a car hunt, a neighbourhood drive).
 - Partner outreach email to dealers and agencies (the agent drafts it; you send it).
+- Paid perks on social, when payments open: a story on @merkado.cw with every Featured week, a monthly collab post for Business customers, sponsored guides (proposed 29 Oct).

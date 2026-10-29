@@ -61,6 +61,20 @@ Besides the recurring types, the feed gets one-off posts with their own design, 
 
 Mix per 4 weeks: 8 listing carousels (4 cars, 4 homes), 8 stories, 4 Monday posts (roughly 1 comment section, List on Merkado or Partner with Merkado, 1 guide, 1 Island Index, 1 What's new or extra), plus news when the radar finds it. Adjust with docs/11-learnings.md.
 
+### Earning money, the natural way (Product Lead, 29 Oct 2026)
+Social should lead to revenue indirectly, never by selling hard. The agent decides how, and adjusts as merkado-cw ships paid features. The order:
+1. **Be useful first.** Listings, bargains, guides and data bring the people who search. That audience is what sellers and businesses pay to reach.
+2. **Grow listings made on Merkado itself.** Every paid product (Featured, extra listing, Plus) needs them; on 29 Oct only 2 of 247 cars and none of 360 homes were listed directly. Always on:
+   - Carousel captions end with one soft seller line after the merkado.cw line: "Selling a car? You can list it free on merkado.cw" (cars) or "Renting out or selling a home? You can list it free on merkado.cw" (homes).
+   - A new listing made directly on Merkado gets a story within 7 days (native first, private sellers never named).
+   - A "Sell it on Merkado" story on the last Thursday of the month, saved to the Sell Highlight.
+   - About once a month a Monday seller post: List on Merkado, its landlords edition, or Partner with Merkado for businesses.
+3. **Paid features appear as news, not ads.** When a feature is live for everyone (watchlist, section 9), it gets a What's new post that explains what it does for the reader, with the price as a plain fact. Never a countdown, "limited offer" or pressure.
+4. **Plan pitches wait for proof.** A post about Plus or Business comes only after the numbers show people act on seller posts (clicks, new direct listings), and only with claims true on /pricing that day.
+5. **Needs the Product Lead:** anything paid on social itself (a social perk in Featured or Business, collab posts for paying businesses, sponsored guides, boosts).
+
+Seller and business posts stay at about 1 in 6 of all posts, plus the caption lines. The monthly report says how many direct listings Merkado gained.
+
 ## 5. Weekly rhythm (Curaçao time, America/Curacao, UTC-4)
 
 | Day | Time | Slot |

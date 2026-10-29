@@ -19,6 +19,7 @@
 | Launch on Thu 29 Oct 2026 | 28 Oct 2026 | Replaces the 26 Oct launch that did not happen. |
 | No hashtags in captions | 28 Oct 2026 | They look cheap. Search keywords go in the sentences instead. |
 | Claude runs the whole social media operation | 28 Oct 2026 | Posting, analytics, optimisation, reporting. The Product Lead only checks content and approves. Comments and DMs stay with the Product Lead (no tool for it, and replies speak for Merkado). |
+| No first comments | 29 Oct 2026 | No link comments under posts: they look unprofessional and messy. Captions name merkado.cw in plain words; the tracked bio link carries the clicks. |
 | Partner with Merkado posts | 29 Oct 2026 | A monthly Monday post for dealerships and agencies, pointing to the homepage partner banner and form. Alternates with List on Merkado (for private sellers). First one Mon 23 Nov. |
 | Approve in chat | 28 Oct 2026 | The weekly run shows the week on the Social HQ page and asks for approval in its chat; after the Product Lead's explicit reply the agent schedules in Metricool (AGENTS.md hard rule 1). |
 | No AI photo extension | 28 Oct 2026 | Pay-per-photo is not scalable. Posts use the sellers' real photos in layouts that fit them (rounded frames, carousels). Thursday 29 Oct story is the one exception, already made. |

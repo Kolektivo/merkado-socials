@@ -93,7 +93,7 @@ Rules for changing the schedule:
 - Lead with the useful thing (price, place, what it is). No hype words ("amazing", "dream", "don't miss out"), no em dashes, no ALL CAPS, at most one emoji and only if it adds meaning.
 - Never invent facts, numbers, quotes, testimonials or partners. Every number comes from live data with a date.
 - No hashtags (Product Lead, 28 Oct 2026: they look cheap). Instagram and Facebook search read the caption text, so name the plain words people search for in the sentences themselves: the make and model, "car", "house", "for rent", the neighbourhood, "Curaçao".
-- Links: no URL in the caption. Put the full link with UTM in the first comment: `https://merkado.cw/<path>?utm_source=social&utm_medium=metricool&utm_campaign=<series-slug>&utm_content=<post-id>`. The caption ends with "Link in the first comment" on listing posts, or "Search it on merkado.cw" on brand posts.
+- Links: never a first comment under a post (Product Lead, 29 Oct 2026: it looks unprofessional and messy), and no URL in the caption. The caption ends with a plain line that names merkado.cw: "Find it on merkado.cw" (one listing), "Find all three on merkado.cw" (carousel) or "Search it on merkado.cw" (brand posts). People reach the site through the tracked bio link (`captions/profile.md`) or by typing merkado.cw. Clicks are measured as bio link clicks and profile visits in Metricool, not per post.
 - Alt text on every image: one plain sentence describing what is shown.
 
 ### Caption skeletons
@@ -105,7 +105,7 @@ XCG <price>, listed by <Seller>.
 <One useful line: what it suits, from the listing itself, never invented.>
 
 Details come from <Seller>'s listing. Always check the original listing and contact the seller for official details.
-Link in the first comment.
+Find it on merkado.cw
 ```
 
 Listing (real estate): same, with type, bedrooms, bathrooms, m², neighbourhood, sale or rent.

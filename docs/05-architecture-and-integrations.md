@@ -67,7 +67,7 @@ Figma's domains are needed because photo uploads and image exports go from the s
 
 ### Metricool
 - Brand: blogId `7589417`, timezone `America/La_Paz` (same clock as Curaçao).
-- Feed post: `createScheduledPost` with `draft: true`, providers facebook + instagram, `instagramData.type = POST`, `facebookData.type = POST`, `isAiGenerated` true only when the image contains AI imagery, `mediaAltText`, `firstCommentText` with the UTM link.
+- Feed post: `createScheduledPost` with `draft: true`, providers facebook + instagram, `instagramData.type = POST`, `facebookData.type = POST`, `isAiGenerated` true only when the image contains AI imagery, `mediaAltText`, `firstCommentText` always empty (no first comments, Product Lead 29 Oct 2026).
 - Story: same, with `type = STORY` on both networks and no text.
 - If the account supports the review flow, use `createScheduledPostForReview` with reviewer `enrique@kolektivo.co` and `approvalSystem: "any"` instead of a draft. If it errors once, fall back to drafts and note it in docs/11-learnings.md.
 - Log every post in `state/posts.csv`.

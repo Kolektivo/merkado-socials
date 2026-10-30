@@ -1,21 +1,21 @@
 {
   "repo": "Kolektivo/merkado-cw",
   "branch": "main",
-  "last_commit": "e9b246ca75b4f0c8b9e1a514857bb909d9ce0e25",
-  "last_commit_title": "Fix daily real-estate enrich failures and slow Economic listing photos.",
-  "last_checked": "2026-10-28",
+  "last_commit": "8892e235a91cf2a441766968884c471d5da452ac",
+  "last_commit_title": "Docs: record enrichment model switch to GPT-6.1 Terra.",
+  "last_checked": "2026-10-30",
   "counts": {
-    "date": "2026-10-28",
-    "cars_active": 247,
+    "date": "2026-10-30",
+    "cars_active": 257,
     "real_estate_active": 360,
     "real_estate_with_map_pin": 275,
-    "source": "merkado.cw /api/cars/count and /api/real-estate/map, 28 Oct 2026"
+    "source": "merkado.cw market snapshot (state/market), 30 Oct 2026"
   },
   "milestones": [
     {
       "id": "cars-250",
       "rule": "cars_active >= 250",
-      "hit": null
+      "hit": "2026-10-30 (257 active cars; not posted yet)"
     },
     {
       "id": "cars-300",
@@ -55,7 +55,7 @@
     {
       "id": "payments-live",
       "rule": "Featured and the extra listing can be bought by every seller (Sentoo allowlist removed); starts the payments launch arc in docs/10-calendar.md",
-      "hit": null
+      "hit": "2026-10-29 (docs/09-current-state.md in merkado-cw: allowlists removed, production redeployed; not posted yet)"
     },
     {
       "id": "first-featured-car",
@@ -72,5 +72,5 @@
     "Property Match (private beta until it is a real Sentoo product)",
     "Merkado Rent Advance / merkado-labs"
   ],
-  "notes": "No new commits on main since e9b246c (22 Oct). Full feature watchlist: docs/03-content-playbook.md section 9."
+  "notes": "Commits since e9b246c: payments opened to all sellers (29 Oct), ops email stuck-payment flag, enrichment model docs. Full feature watchlist: docs/03-content-playbook.md section 9."
 }

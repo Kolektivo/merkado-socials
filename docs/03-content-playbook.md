@@ -114,6 +114,25 @@ Rules for changing the schedule:
 
 ### Caption skeletons
 
+Carousel (Product Lead, 30 Oct 2026: one long block looks messy). One numbered block per listing in slide order, the price on the first line, a blank line between blocks, the disclaimer last:
+```
+<Theme line>, from three sellers on Merkado.
+
+1. <Make Model Year> · XCG <price>
+<Key spec> · <mileage> km · <Seller>
+
+2. ...
+
+3. ...
+
+<One shared fact, if any>. Swipe for photos, find all three on merkado.cw
+
+Selling a car? You can list it free on merkado.cw
+
+Details come from each seller's listing. Always check the original listing and contact the seller for official details.
+```
+Real estate: the neighbourhood and price on the first line ("1. Steenrijk · XCG 1.851,- a month"), then type and agency ("1-bedroom apartment · Keller Williams Curaçao"). The theme line comes first because Instagram and Facebook show only the first lines before "more".
+
 Listing (car):
 ```
 <Year> <Make> <Model>, <mileage> km, <fuel>, <gearbox>.

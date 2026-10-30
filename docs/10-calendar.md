@@ -68,6 +68,8 @@ December: Mon 14 Dec, List on Merkado, landlords edition ("All rentals on Merkad
 
 ## Phase 2. Payments launch (starts the day payments open to every seller)
 
+**Triggered 29 Oct 2026.** The daily check found it in merkado-cw; on 30 Oct merkado.cw/pricing shows "Add a listing" (XCG 15) and "Feature a car" (XCG 50) for everyone. The weekly run on Sun 1 Nov plans it the natural way (playbook section 4): the Mon 9 Nov List on Merkado post adds one plain line about Featured, and a What's new post explains Featured in week 46 or 47. No countdowns or "only nine spots" pressure; the Reel and the Sentoo logo still need the Product Lead.
+
 Trigger: Featured (XCG 50 for 7 days, nine spots, native cars) and the extra listing (XCG 15) can be bought by every seller on merkado.cw. The radar watches for this. Not a calendar date.
 
 | Day | Slot | Content |

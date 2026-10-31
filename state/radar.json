@@ -1,15 +1,15 @@
 {
   "repo": "Kolektivo/merkado-cw",
   "branch": "main",
-  "last_commit": "8892e235a91cf2a441766968884c471d5da452ac",
-  "last_commit_title": "Docs: record enrichment model switch to GPT-6.1 Terra.",
-  "last_checked": "2026-10-30",
+  "last_commit": "d029089f3b9cbbd508625214d6cd88f97c606f1b",
+  "last_commit_title": "Fix CI: install with npm 11 and compile without pre-building live pages.",
+  "last_checked": "2026-10-31",
   "counts": {
-    "date": "2026-10-30",
-    "cars_active": 257,
-    "real_estate_active": 360,
+    "date": "2026-10-31",
+    "cars_active": 255,
+    "real_estate_active": 359,
     "real_estate_with_map_pin": 275,
-    "source": "merkado.cw market snapshot (state/market), 30 Oct 2026"
+    "source": "merkado.cw market snapshot (state/market), 31 Oct 2026"
   },
   "milestones": [
     {

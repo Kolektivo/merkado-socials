@@ -12,6 +12,7 @@ Keep it short and cheap when nothing needs attention. Read `AGENTS.md` first.
 1. Pre-flight every post scheduled or drafted for the next 48 hours (playbook section 7). Pull failures back to draft and draft a replacement.
 2. Drafts due in the next 36 hours that are still not approved: notify the Product Lead once per draft.
 3. Radar (playbook section 9): new commits and doc changes on `Kolektivo/merkado-cw` main since `state/radar.json → last_commit`, then the watchlist in playbook section 9 checked against the live site. A watchlist item that went live: draft the posts and tell the Product Lead. Update `state/radar.json`.
+3a. Featured cars: `python scripts/market_scan.py featured`. Every car marked NEEDS A POST gets a story draft today (make-post, style C, headline "Featured on Merkado", playbook section 7 rule 0) unless the weekly plan already has it before its Featured week ends. Tell the Product Lead and ask for approval; never schedule without it.
 4. If nothing needs attention, end quietly (one-line report, no notification).
 
 Push changes to `state/` only when the standing approval in AGENTS.md says APPROVED.

@@ -151,6 +151,12 @@ Brand / data / guide: a hook line, two or three short lines of substance, a plai
 
 ### Strategy: every listing post has a reason
 A listing is never posted just because it is there. Each pick has one clear angle, and the angle shows in the post (chip, headline or first caption line). Run `python scripts/market_scan.py picks car` and `... picks home`: it ranks live listings and prints the reasons. Angles, strongest first:
+0. **Featured comes first** (Product Lead, 30 Oct 2026). A car that is Featured on merkado.cw (the paid XCG 50 week; `featured_until` in the cars API, listed by `python scripts/market_scan.py featured`) gets at least one social post during its Featured week:
+   - the first listing slide of the Friday car carousel when it fits the theme (the theme may widen to fit it), otherwise its own story, style C, headline "Featured on Merkado";
+   - bought after the Sunday run: the daily check drafts the story and asks the Product Lead to approve it the same day (hard rule 1 still applies);
+   - more Featured cars than slots in a week: a "Featured this week" carousel or story set, one slide per car;
+   - it still passes the pre-flight and the photo rules; if it fails, it is not posted and the Product Lead hears why;
+   - the post says "Featured" (chip or headline), the same word merkado.cw uses, so the paid spot is clear. Private sellers stay unnamed.
 1. **Native listing** (listed on Merkado itself, private or business). Strategic: shows Merkado is a place to sell, not only a mirror of dealer sites.
 2. **Price drop**, only when verified: our own dated price log (`state/market/price-changes.csv`, written by the daily snapshot) or the public price trail on a real-estate Listing Score, and confirmed at the source. Chip `Price drop`, caption "Was XCG X on <date>, now XCG Y."
 3. **Just added** (on merkado.cw for 7 days or less on the post date).

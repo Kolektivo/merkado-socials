@@ -19,6 +19,7 @@
 | Launch on Thu 29 Oct 2026 | 28 Oct 2026 | Replaces the 26 Oct launch that did not happen. |
 | No hashtags in captions | 28 Oct 2026 | They look cheap. Search keywords go in the sentences instead. |
 | Claude runs the whole social media operation | 28 Oct 2026 | Posting, analytics, optimisation, reporting. The Product Lead only checks content and approves. Comments and DMs stay with the Product Lead (no tool for it, and replies speak for Merkado). |
+| Featured cars get social priority | 30 Oct 2026 | A car with a paid Featured week gets at least one post during that week (carousel slide or its own story), labelled "Featured". Still pre-flighted and approved like every post. Playbook section 7 rule 0. |
 | Earn money the natural way | 29 Oct 2026 | Social leads to revenue indirectly: useful posts first, more listings made on Merkado itself (soft seller lines and stories), paid features shown as news when live. The agent decides the details as merkado-cw ships features; paid perks on social need the Product Lead. Playbook section 4. |
 | No first comments | 29 Oct 2026 | No link comments under posts: they look unprofessional and messy. Captions name merkado.cw in plain words; the tracked bio link carries the clicks. |
 | Partner with Merkado posts | 29 Oct 2026 | A monthly Monday post for dealerships and agencies, pointing to the homepage partner banner and form. Alternates with List on Merkado (for private sellers). First one Mon 23 Nov. |

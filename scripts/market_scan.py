@@ -9,8 +9,10 @@ any cloud session without installs.
   python scripts/market_scan.py roundup car under-15000 5   # one listing per seller
   python scripts/market_scan.py roundup home pool 5         # one listing per agency
   python scripts/market_scan.py themes                      # list all themes
+  python scripts/market_scan.py featured                    # paid Featured cars and their social post
 
-Bargains come first: people on Curaçao love a bargain (Product Lead, 28 Oct 2026).
+Paid Featured cars come first, then bargains: people on Curaçao love a bargain
+(Product Lead, 28 and 30 Oct 2026).
 
 State lives in state/market/:
   cars.csv, homes.csv     latest snapshot, with first_seen per listing
@@ -141,6 +143,36 @@ def data_flags(c):
     return flags
 
 
+def featured_until(c):
+    """End of a paid Featured week (UTC) while it is still running, else None."""
+    raw = c.get("featured_until")
+    if not raw:
+        return None
+    try:
+        until = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return until if until > dt.datetime.now(dt.timezone.utc) else None
+
+
+def featured_report():
+    """Cars Featured right now, and whether social already gave them their post this Featured week."""
+    rows = read_csv(POSTS)
+    found = False
+    for c in fetch_cars():
+        until = featured_until(c)
+        if not until or c.get("status") != "active":
+            continue
+        found = True
+        start = (until - dt.timedelta(days=7)).date().isoformat()
+        done = [r for r in rows if r.get("listing_slug") == c["slug"] and r.get("date", "") >= start]
+        state = "posted " + ", ".join(r["post_id"] for r in done) if done else "NEEDS A POST before " + f"{until:%d %b}"
+        print(f"{c['year']} {c['make']} {c['model']} | XCG {c.get('price')} | {seller(c)} | {c['slug']} | "
+              f"Featured until {until:%d %b %H:%M} UTC | {state}")
+    if not found:
+        print("No Featured cars right now.")
+
+
 def rank_cars():
     cars = [c for c in fetch_cars() if c.get("status") == "active" and c.get("price") and c.get("year")]
     posted, drops = recent_post_slugs(), price_drops("car")
@@ -155,10 +187,14 @@ def rank_cars():
             cheapest[body] = c
     ranked = []
     for c in cars:
-        if c["slug"] in posted or not (c.get("primary_image_url") or c.get("primary_image_path")):
+        until = featured_until(c)
+        # A Featured car stays eligible during its paid week even if we posted it before.
+        if (c["slug"] in posted and not until) or not (c.get("primary_image_url") or c.get("primary_image_path")):
             continue
         score, why = 0, []
         flags = data_flags(c)
+        if until:
+            score += 100; why.append(f"FEATURED until {until:%d %b %H:%M} UTC: post it during its Featured week")
         if c.get("listing_origin") != "scraped":
             score += 30; why.append("native listing")
         age = days_since(c.get("published_at") or "")
@@ -313,6 +349,8 @@ if __name__ == "__main__":
         car_roundup(args[2], int(args[3]) if len(args) > 3 else 5)
     elif args[:2] == ["roundup", "home"] and len(args) > 2 and args[2] in HOME_THEMES:
         home_roundup(args[2], int(args[3]) if len(args) > 3 else 5)
+    elif args[:1] == ["featured"]:
+        featured_report()
     elif args[:1] == ["themes"]:
         print("car:", ", ".join(THEMES)); print("home:", ", ".join(HOME_THEMES))
     else:

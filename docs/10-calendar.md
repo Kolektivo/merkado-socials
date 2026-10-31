@@ -77,7 +77,7 @@ Trigger: Featured (XCG 50 for 7 days, nine spots, native cars) and the extra lis
 | Day 0 | Feed + Story | Announcement: "Put your car in front of the island. Featured: XCG 50 for 7 days. Nine spots." |
 | Day 2 | Feed carousel | How Featured works, 3 steps, screenshots of the real flow |
 | Day 4 | Reel | Launch video (20 to 30 s): real merkado.cw screens, the locked templates in motion, optional AI B-roll of the island (labelled), no AI listings |
-| Day 7 | Feed + Story | The first Featured cars, only with each owner's consent |
+| Day 7 | Feed + Story | The first Featured cars: every Featured car gets its social post during its Featured week (playbook section 7 rule 0) |
 | Day 10 | Feed | Extra listing for XCG 15, and a reminder of the nine spots |
 
 Before Day 0: get Sentoo's written OK before showing their logo. Launch video storyboard ready by 6 Nov, video ready by 13 Nov, then it waits for the trigger.

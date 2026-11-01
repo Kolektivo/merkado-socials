@@ -1,15 +1,15 @@
 {
   "repo": "Kolektivo/merkado-cw",
   "branch": "main",
-  "last_commit": "d029089f3b9cbbd508625214d6cd88f97c606f1b",
-  "last_commit_title": "Fix CI: install with npm 11 and compile without pre-building live pages.",
-  "last_checked": "2026-10-31",
+  "last_commit": "a59e85b7a78153e9c1f6f31d438aabf7d3654e38",
+  "last_commit_title": "Docs: record the Sanity upgrade and lint clean-up as live.",
+  "last_checked": "2026-11-01",
   "counts": {
-    "date": "2026-10-31",
-    "cars_active": 255,
-    "real_estate_active": 359,
+    "date": "2026-11-01",
+    "cars_active": 254,
+    "real_estate_active": 357,
     "real_estate_with_map_pin": 275,
-    "source": "merkado.cw market snapshot (state/market), 31 Oct 2026"
+    "source": "merkado.cw market snapshot (state/market), 1 Nov 2026"
   },
   "milestones": [
     {

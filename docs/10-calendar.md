@@ -19,20 +19,20 @@ Status values: `planned` → `drafted` (in Metricool, waiting for approval) → 
 | Date | Time | Slot | Template | Content | Status |
 | --- | --- | --- | --- | --- | --- |
 | Thu 29 Oct | 12:15 | Feed | T01 | The comment section: "Price? PM. Still available?? Location? Or just search." Launch opener. | scheduled (approved 28 Oct) |
-| Thu 29 Oct | 19:00 | Story | Story, no AI | 2016 Kia Sorento 7-seater, 158.000 km, XCG 19.800,-, CuraCars (family, under XCG 20.000) | scheduled (approved 29 Oct) |
-| Fri 30 Oct | 12:15 | Feed | Car carousel (5 slides) | City cars under XCG 20.000, one per seller: Letin Mengo (Carteam), Chevrolet Spark (CuraCars), Kia Picanto (private seller on Merkado) | scheduled (approved 28 Oct) |
+| Thu 29 Oct | 19:00 | Story | Story, no AI | 2016 Kia Sorento 7-seater, 158.000 km, XCG 19.800,-, CuraCars (family, under XCG 20.000) | published |
+| Fri 30 Oct | 12:15 | Feed | Car carousel (5 slides) | City cars under XCG 20.000, one per seller: Letin Mengo (Carteam), Chevrolet Spark (CuraCars), Kia Picanto (private seller on Merkado) | published (IG reach 8, FB reach 2) |
 
 ### Week 45 (2 to 8 Nov)
 
-Listings here are the market scan's picks on 28 Oct (`scripts/market_scan.py`), each with its angle. The weekly run re-picks on Sunday 1 Nov.
+Planned and drafted by the weekly run on Sun 1 Nov. Captions, checks and Metricool ids: `captions/2026-W45.md`.
 
 | Date | Time | Slot | Template | Content | Angle | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mon 2 Nov | 12:15 | Feed | T08 (paper) | Island Index: every pinned listing on the island map, re-rendered with that day's pins | Data, first Monday of the month | planned |
-| Tue 3 Nov | 19:00 | Story | T10 | 2015 Chrysler 200 listed on Merkado by a private seller, XCG 5.000,- (cheapest sedan on Merkado; tall phone photo, so full-photo story without AI) | Native, bargain | planned |
-| Wed 4 Nov | 18:30 | Feed | Real estate carousel (5 slides) | Rentals under XCG 3.000, one per agency: Santa Catharina (RE/MAX), Steenrijk (Keller Williams), Bottelier (Moret) | Bargain | scheduled (approved 28 Oct; re-check listings by 3 Nov) |
-| Thu 5 Nov | 19:00 | Story | T10 | New rental: 1-bedroom apartment in Steenrijk, XCG 1.851,- a month, Keller Williams | Just added, rent under XCG 3.000 | planned |
-| Fri 6 Nov | 12:15 | Feed | Car carousel, paper cover | Just added this week, one per seller | New | planned |
+| Mon 2 Nov | 12:15 | Feed (paper) | M4 | Island Index: top neighbourhoods, live counts 1 Nov (Blue Bay 63 of 357). M4 instead of the map: the cloud run cannot reach CARTO tiles | Data, first Monday of the month | drafted |
+| Tue 3 Nov | 19:00 | Story | S2 (style B) | 2015 Chrysler 200 Sport, private seller on Merkado, XCG 5.000,- | Native, lowest-priced car on Merkado | drafted |
+| Wed 4 Nov | 18:30 | Feed (violet) | Real estate carousel (5 slides) | Rentals under XCG 3.000: Montaña (RE/MAX, replaces Santa Catharina, which RE/MAX marks rented), Steenrijk (Keller Williams), Bottelier (Moret) | Bargain | drafted, needs new OK (back to draft 1 Nov after pre-flight) |
+| Thu 5 Nov | 19:00 | Story | | Open: no listing fits one-per-seller this week. Option offered to the Product Lead | | open |
+| Fri 6 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | SUVs from XCG 14.900, one per seller: Jeep Compass 2016 (Economic), Chevrolet Tahoe 2015 (CuraCars), Audi Q8 2023 (Carteam, price drop) | SUVs, price drop | drafted |
 
 ### Week 46 (9 to 15 Nov)
 

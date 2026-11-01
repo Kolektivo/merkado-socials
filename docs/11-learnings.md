@@ -2,6 +2,24 @@
 
 What the numbers and the Product Lead's edits taught us. The weekly run adds a dated entry at the top. Keep each entry short: findings, one change to try, and the result of last week's change.
 
+## 1 Nov 2026: weekly run, week 44 numbers
+
+Numbers (Metricool, 29 Oct to 1 Nov; first three days of posting):
+- Launch post "The comment section" (Thu 12:15): Instagram reach 27, 59 views, 6 likes, 1 save; Facebook reach 4, 12 impressions, 1 click.
+- City cars carousel (Fri 12:15): Instagram reach 8, 29 views, 2 likes; Facebook reach 2.
+- Followers: Instagram 13 to 14. Story numbers not reported by Metricool yet.
+
+Findings:
+1. Too little data to judge days, times or series (week 1 of 3 of the "collect, change nothing" rule). Metricool has no Instagram best-time data yet; its Facebook best-time map peaks at 10:00 to 12:00 on weekdays (Wednesday strongest) and drops after 19:00, which supports the 12:15 feed slot.
+2. The brand post out-reached the listing carousel about 3 to 1 on Instagram, as hypothesis 2 expected; one pair of posts is not proof.
+3. Pre-flight caught a rented listing: RE/MAX marks some rentals "rented" on its own page (hr2192, hr2121) while merkado.cw still lists them as active. Data issue for merkado-cw. The RE/MAX check must look for the "rented" label next to the price, not only a 200 page.
+4. The scan's home "price drops" on 31 Oct and 1 Nov (about 0.2% on most RE/MAX listings) are EUR to XCG exchange-rate moves, not real drops. Treat home changes under 1% from EUR-priced agencies as noise. The scan's "cheapest SUV / pickup on Merkado" lines skip Economic Auto Center cars (no mileage), so they can be wrong; check the full list before saying "cheapest".
+5. Supply limits the weekly mix: with one listing per seller per week, two carousels plus two stories need seven sellers. This week only six had usable listings (SeriDomi's photos all carry the banner, Monumentenzorg lists commercial spaces), so the Thursday story was left open. Economic Auto Center's site now answers (it returned 403 on 28 Oct), which adds a seller.
+
+Change to try next week: none to the schedule (data rule, weeks 1 to 3). Content test: an SUV theme with a wide price range (XCG 14.900 to 119.900) against last week's narrow bargain theme; compare reach, saves and shares.
+Result of last week's change: none set yet.
+Also: the island map (T08) cannot be redrawn from a cloud run because CARTO tiles are blocked by the proxy. Monday used the neighbourhood list (M4). For a map next month, add `basemaps.cartocdn.com` and `tiles.basemaps.cartocdn.com` to the cloud environment's allowed domains, or render it on the Product Lead's PC.
+
 ## 29 Oct 2026: links in stories
 
 - Instagram's API does not allow link stickers (or other interactive stickers) on stories that publish automatically. Metricool can only do it as a manual post: it sends a phone notification and the person finishes the story in the Instagram app. Our stories stay automatic, without link stickers; the story names the listing and merkado.cw, and the bio link carries the clicks. Revisit if Meta adds link stickers to the API. Sources: help.metricool.com "Content planning: full guide & FAQs" and "Schedule and Post on Instagram".

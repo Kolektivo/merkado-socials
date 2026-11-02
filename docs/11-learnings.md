@@ -16,6 +16,8 @@ Findings:
 4. The scan's home "price drops" on 31 Oct and 1 Nov (about 0.2% on most RE/MAX listings) are EUR to XCG exchange-rate moves, not real drops. Treat home changes under 1% from EUR-priced agencies as noise. The scan's "cheapest SUV / pickup on Merkado" lines skip Economic Auto Center cars (no mileage), so they can be wrong; check the full list before saying "cheapest".
 5. Supply limits the weekly mix: with one listing per seller per week, two carousels plus two stories need seven sellers. This week only six had usable listings (SeriDomi's photos all carry the banner, Monumentenzorg lists commercial spaces), so the Thursday story was left open. Economic Auto Center's site now answers (it returned 403 on 28 Oct), which adds a seller.
 
+6. Product Lead edit (2 Nov): he swapped the Chrysler 200 story because the native listing dated from 24 May and might no longer be for sale. Native listings have no source page to check, so an old one can look active while it is gone. From now on: prefer native listings published in the last 60 days; for older ones, say the age in the approval message so he can judge.
+
 Change to try next week: none to the schedule (data rule, weeks 1 to 3). Content test: an SUV theme with a wide price range (XCG 14.900 to 119.900) against last week's narrow bargain theme; compare reach, saves and shares.
 Result of last week's change: none set yet.
 Also: the island map (T08) cannot be redrawn from a cloud run because CARTO tiles are blocked by the proxy. Monday used the neighbourhood list (M4). For a map next month, add `basemaps.cartocdn.com` and `tiles.basemaps.cartocdn.com` to the cloud environment's allowed domains, or render it on the Product Lead's PC.

@@ -28,11 +28,11 @@ Planned and drafted by the weekly run on Sun 1 Nov. Captions, checks and Metrico
 
 | Date | Time | Slot | Template | Content | Angle | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mon 2 Nov | 12:15 | Feed (paper) | M4 | Island Index: top neighbourhoods, live counts 1 Nov (Blue Bay 63 of 357). M4 instead of the map: the cloud run cannot reach CARTO tiles | Data, first Monday of the month | drafted |
-| Tue 3 Nov | 19:00 | Story | S2 (style B) | 2015 Chrysler 200 Sport, private seller on Merkado, XCG 5.000,- | Native, lowest-priced car on Merkado | drafted |
-| Wed 4 Nov | 18:30 | Feed (violet) | Real estate carousel (5 slides) | Rentals under XCG 3.000: Montaña (RE/MAX, replaces Santa Catharina, which RE/MAX marks rented), Steenrijk (Keller Williams), Bottelier (Moret) | Bargain | drafted, needs new OK (back to draft 1 Nov after pre-flight) |
+| Mon 2 Nov | 12:15 | Feed (paper) | M4 | Island Index: top neighbourhoods, live counts 1 Nov (Blue Bay 63 of 357). M4 instead of the map: the cloud run cannot reach CARTO tiles | Data, first Monday of the month | scheduled (approved 2 Nov) |
+| Tue 3 Nov | 19:00 | Story | S2 (style B) | 2013 Kia Optima, Economic Auto Center, XCG 8.900,- (replaces the Chrysler 200, Product Lead 2 Nov) | Just added, under XCG 10.000 | drafted, waiting for OK |
+| Wed 4 Nov | 18:30 | Feed (violet) | Real estate carousel (5 slides) | Rentals under XCG 3.000: Montaña (RE/MAX, replaces Santa Catharina, which RE/MAX marks rented), Steenrijk (Keller Williams), Bottelier (Moret) | Bargain | scheduled (approved again 2 Nov) |
 | Thu 5 Nov | 19:00 | Story | | Open: no listing fits one-per-seller this week. Option offered to the Product Lead | | open |
-| Fri 6 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | SUVs from XCG 14.900, one per seller: Jeep Compass 2016 (Economic), Chevrolet Tahoe 2015 (CuraCars), Audi Q8 2023 (Carteam, price drop) | SUVs, price drop | drafted |
+| Fri 6 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | SUVs from XCG 14.900, one per seller: Jeep Compass 2016 (Economic), Chevrolet Tahoe 2015 (CuraCars), Audi Q8 2023 (Carteam, price drop) | SUVs, price drop | scheduled (approved 2 Nov) |
 
 ### Week 46 (9 to 15 Nov)
 

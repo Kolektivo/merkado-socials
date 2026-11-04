@@ -48,6 +48,7 @@ Figma's domains are needed because photo uploads and image exports go from the s
 
 ### Data
 - Cars: `GET https://merkado.cw/api/cars?sort=newest&page=<n>` (24 per page; fields include id, slug, make, model, trim, year, price, mileage, fuel_type, transmission, body_type, status, published_at, source_name, listing_origin, primary_image_url). Count: `/api/cars/count`. Car page: `https://merkado.cw/car/<slug>` (has the "original listing" link for scraped cars).
+- Featured properties: `GET https://merkado.cw/api/real-estate?page=<n>` (24 per page, the default order lists Featured properties first; has `featured_until`, `listing_origin`, `status`). A property is Featured when `listing_origin = manual`, `status = active` and `featured_until` is in the future. Read by `market_scan.py featured`, `picks home` and `roundup home`.
 - Real estate: `GET https://merkado.cw/api/real-estate/map` (all active listings with latitude, longitude, price_xcg, listing_type sale or rent, real_estate_type, bedrooms, bathrooms, neighbourhood, source_name, source_url, primary_image_url, slug). Page: `https://merkado.cw/real-estate/<slug>`.
 - Photos: always through merkado.cw, never hot-linked: `https://merkado.cw/_next/image?url=<url-encoded primary_image_url>&w=1920&q=90`.
 - Source pages: WebFetch the source URL to confirm it is live and to read price and year.

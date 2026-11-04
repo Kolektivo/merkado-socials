@@ -9,10 +9,10 @@ any cloud session without installs.
   python scripts/market_scan.py roundup car under-15000 5   # one listing per seller
   python scripts/market_scan.py roundup home pool 5         # one listing per agency
   python scripts/market_scan.py themes                      # list all themes
-  python scripts/market_scan.py featured                    # paid Featured cars and their social post
+  python scripts/market_scan.py featured                    # paid Featured cars and properties, and their social post
 
-Paid Featured cars come first, then bargains: people on Curaçao love a bargain
-(Product Lead, 28 and 30 Oct 2026).
+Paid Featured cars and properties come first, then bargains: people on Curaçao love
+a bargain (Product Lead, 28 Oct, 30 Oct and 4 Nov 2026).
 
 State lives in state/market/:
   cars.csv, homes.csv     latest snapshot, with first_seen per listing
@@ -59,6 +59,24 @@ def fetch_cars():
 
 def fetch_homes():
     return get_json("/api/real-estate/map").get("listings", [])
+
+
+def fetch_featured_homes():
+    """Properties Featured right now. The map has no featured_until, so this reads the browse
+    list, whose default order puts Featured properties first: stop at the first regular one."""
+    out = []
+    for page in range(1, 26):
+        batch = get_json(f"/api/real-estate?page={page}").get("listings", [])
+        live = [h for h in batch if featured_until(h) and h.get("listing_origin") == "manual"
+                and h.get("status") == "active"]
+        out += live
+        if not batch or len(live) < len(batch):
+            break
+    return out
+
+
+def home_url(h):
+    return f"{SITE}/real-estate/{h['slug']}"
 
 
 def seller(item):
@@ -155,8 +173,15 @@ def featured_until(c):
     return until if until > dt.datetime.now(dt.timezone.utc) else None
 
 
+def featured_post_state(slug, until, rows):
+    """Whether social already gave this listing its post during the current Featured week."""
+    start = (until - dt.timedelta(days=7)).date().isoformat()
+    done = [r for r in rows if r.get("listing_slug") == slug and r.get("date", "") >= start]
+    return "posted " + ", ".join(r["post_id"] for r in done) if done else "NEEDS A POST before " + f"{until:%d %b}"
+
+
 def featured_report():
-    """Cars Featured right now, and whether social already gave them their post this Featured week."""
+    """Cars and properties Featured right now, and whether social already gave them their post this Featured week."""
     rows = read_csv(POSTS)
     found = False
     for c in fetch_cars():
@@ -164,13 +189,21 @@ def featured_report():
         if not until or c.get("status") != "active":
             continue
         found = True
-        start = (until - dt.timedelta(days=7)).date().isoformat()
-        done = [r for r in rows if r.get("listing_slug") == c["slug"] and r.get("date", "") >= start]
-        state = "posted " + ", ".join(r["post_id"] for r in done) if done else "NEEDS A POST before " + f"{until:%d %b}"
+        state = featured_post_state(c["slug"], until, rows)
         print(f"{c['year']} {c['make']} {c['model']} | XCG {c.get('price')} | {seller(c)} | {c['slug']} | "
               f"Featured until {until:%d %b %H:%M} UTC | {state}")
     if not found:
         print("No Featured cars right now.")
+    homes = fetch_featured_homes()
+    for h in homes:
+        until = featured_until(h)
+        price = f"XCG {h.get('price_xcg')}" + (" a month" if h.get("listing_type") == "rent" else "")
+        via = f"business {h['seller_business_slug']}" if h.get("seller_business_slug") else "a private seller (never named)"
+        print(f"{h.get('listing_type')} {h.get('real_estate_type')} {h.get('bedrooms')} bd | {h.get('neighbourhood')} | "
+              f"{price} | {via} | {h['slug']} | {home_url(h)} | Featured until {until:%d %b %H:%M} UTC | "
+              f"{featured_post_state(h['slug'], until, rows)}")
+    if not homes:
+        print("No Featured properties right now.")
 
 
 def rank_cars():
@@ -283,10 +316,13 @@ def car_roundup(theme, limit):
 
 def home_roundup(theme, limit):
     """Best home per agency for a theme: a carousel never shows the same agency twice."""
-    homes = [h for h in fetch_homes() if h.get("status") == "active" and h.get("price_xcg") and h.get("primary_image_url")]
+    homes, featured = homes_with_featured()
+    homes = [h for h in homes if h.get("status") == "active" and h.get("price_xcg") and h.get("primary_image_url")]
     posted = recent_post_slugs()
-    homes = [h for h in homes if h["slug"] not in posted and HOME_THEMES[theme](h) and h.get("bedrooms")]
-    homes.sort(key=lambda h: (h["slug"] not in price_drops("home"), days_since(h.get("published_at") or ""), h["price_xcg"]))
+    homes = [h for h in homes if (h["slug"] not in posted or h["slug"] in featured)
+             and HOME_THEMES[theme](h) and h.get("bedrooms")]
+    homes.sort(key=lambda h: (h["slug"] not in featured, h["slug"] not in price_drops("home"),
+                              days_since(h.get("published_at") or ""), h["price_xcg"]))
     seen, out = set(), []
     for h in homes:
         if seller(h) in seen:
@@ -295,21 +331,38 @@ def home_roundup(theme, limit):
         if len(out) == limit:
             break
     for h in out:
+        mark = " | FEATURED: first slide" if h["slug"] in featured else ""
         print(f"{h.get('listing_type')} {h.get('real_estate_type')} {h.get('bedrooms')} bd | XCG {h['price_xcg']} | "
-              f"{h.get('neighbourhood')} | {seller(h)} | {h['slug']} | {days_since(h.get('published_at') or '')} d")
+              f"{h.get('neighbourhood')} | {seller(h)} | {h['slug']} | {days_since(h.get('published_at') or '')} d{mark}")
     if len(out) < 3:
         print(f"Only {len(out)} agencies qualify for '{theme}': pick another theme.")
 
 
+def homes_with_featured():
+    """Map listings plus Featured properties (a Featured one may have no map pin), and the Featured slugs."""
+    homes, featured = fetch_homes(), {h["slug"]: h for h in fetch_featured_homes()}
+    on_map = {h["slug"] for h in homes}
+    homes = homes + [h for s, h in featured.items() if s not in on_map]
+    for h in homes:
+        if h["slug"] in featured:
+            h["featured_until"] = featured[h["slug"]]["featured_until"]
+    return homes, featured
+
+
 def home_picks(limit):
-    homes = [h for h in fetch_homes() if h.get("status") == "active" and h.get("price_xcg")]
+    homes, featured = homes_with_featured()
+    homes = [h for h in homes if h.get("status") == "active" and h.get("price_xcg")]
     posted, drops = recent_post_slugs(), price_drops("home")
     top_hoods = {"Blue Bay", "Jan Thiel", "Otrobanda", "Brakkeput", "Piscadera", "Jan Sofat"}
     ranked = []
     for h in homes:
-        if h["slug"] in posted or not h.get("primary_image_url"):
+        # A Featured property stays eligible during its paid week even if we posted it before.
+        if (h["slug"] in posted and h["slug"] not in featured) or not h.get("primary_image_url"):
             continue
         score, why = 0, []
+        if h["slug"] in featured:
+            until = featured_until(h)
+            score += 100; why.append(f"FEATURED until {until:%d %b %H:%M} UTC: post it during its Featured week")
         if h.get("listing_origin") != "scraped":
             score += 30; why.append("native listing")
         age = days_since(h.get("published_at") or "")

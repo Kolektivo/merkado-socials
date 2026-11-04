@@ -15,7 +15,7 @@ Figma file: `Km2x15bnTmb9R8LbnEvQTT` ("Merkado Social Imagery"), cleaned up on 2
 | C3 | Listing slide · car | `88:244` | Paper, photo 936 x 700, name, price, specs, Via |
 | C4 | Listing slide · home | `88:259` | As C3, neighbourhood as title |
 | C5 | End slide · violet | `88:274` | Search all <count> on merkado.cw, dated |
-| S1 | Story · style C | `88:281` | Violet, reason as headline (listings with a reason) |
+| S1 | Story · style C | `88:281` | Violet, reason as headline (listings with a reason) | Featured cars and properties use it with the headline "Featured on Merkado". For a rental, "a month" goes in the small size after the price and the Via line sits under the price (approved 4 Nov 2026, example Figma `107:168`).
 | S2 | Story · style B | `82:212` | Paper, price as headline (bargains, price drops) |
 | M1 | The comment section | `37:3` | Brand, paper only |
 | M2 | List on Merkado | `37:80` | Sellers, violet |

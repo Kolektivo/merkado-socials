@@ -1,15 +1,15 @@
 {
   "repo": "Kolektivo/merkado-cw",
   "branch": "main",
-  "last_commit": "a59e85b7a78153e9c1f6f31d438aabf7d3654e38",
-  "last_commit_title": "Docs: record the Sanity upgrade and lint clean-up as live.",
-  "last_checked": "2026-11-03",
+  "last_commit": "caa8342ce4f9dad40014bd0758fce1ce78e5d530",
+  "last_commit_title": "Docs: record the hosted editor redeployed on Sanity 6.",
+  "last_checked": "2026-11-04",
   "counts": {
-    "date": "2026-11-03",
-    "cars_active": 247,
-    "real_estate_active": 362,
+    "date": "2026-11-04",
+    "cars_active": 246,
+    "real_estate_active": 363,
     "real_estate_with_map_pin": 275,
-    "source": "merkado.cw market snapshot (state/market), 3 Nov 2026"
+    "source": "merkado.cw market snapshot (state/market), 4 Nov 2026"
   },
   "milestones": [
     {

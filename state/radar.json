@@ -1,15 +1,15 @@
 {
   "repo": "Kolektivo/merkado-cw",
   "branch": "main",
-  "last_commit": "caa8342ce4f9dad40014bd0758fce1ce78e5d530",
-  "last_commit_title": "Docs: record the hosted editor redeployed on Sanity 6.",
-  "last_checked": "2026-11-04",
+  "last_commit": "8bd89ea82987371477f069a2fb6edc7978a4b689",
+  "last_commit_title": "Offer plan Featured weeks for car or property listings.",
+  "last_checked": "2026-11-05",
   "counts": {
-    "date": "2026-11-04",
-    "cars_active": 246,
-    "real_estate_active": 363,
+    "date": "2026-11-05",
+    "cars_active": 247,
+    "real_estate_active": 366,
     "real_estate_with_map_pin": 275,
-    "source": "merkado.cw market snapshot (state/market), 4 Nov 2026"
+    "source": "merkado.cw market snapshot (state/market), 5 Nov 2026"
   },
   "milestones": [
     {

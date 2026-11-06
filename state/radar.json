@@ -1,8 +1,8 @@
 {
   "repo": "Kolektivo/merkado-cw",
   "branch": "main",
-  "last_commit": "a8ae1daf4e165b4244081670e98f6a17c488a230",
-  "last_commit_title": "docs: record the 13 added neighbourhoods and the live repair",
+  "last_commit": "ebc5ce92246b47625c3f274e111c4c9094e8b390",
+  "last_commit_title": "fix(ops): list each scrape source once with truthful counts",
   "last_checked": "2026-11-06",
   "counts": {
     "date": "2026-11-06",

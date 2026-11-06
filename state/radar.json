@@ -1,15 +1,15 @@
 {
   "repo": "Kolektivo/merkado-cw",
   "branch": "main",
-  "last_commit": "8bd89ea82987371477f069a2fb6edc7978a4b689",
-  "last_commit_title": "Offer plan Featured weeks for car or property listings.",
-  "last_checked": "2026-11-05",
+  "last_commit": "a8ae1daf4e165b4244081670e98f6a17c488a230",
+  "last_commit_title": "docs: record the 13 added neighbourhoods and the live repair",
+  "last_checked": "2026-11-06",
   "counts": {
-    "date": "2026-11-05",
-    "cars_active": 247,
-    "real_estate_active": 366,
+    "date": "2026-11-06",
+    "cars_active": 250,
+    "real_estate_active": 400,
     "real_estate_with_map_pin": 275,
-    "source": "merkado.cw market snapshot (state/market), 5 Nov 2026"
+    "source": "merkado.cw market snapshot (state/market), 6 Nov 2026"
   },
   "milestones": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "re-400",
       "rule": "real_estate_active >= 400",
-      "hit": null
+      "hit": "2026-11-06 (400 active homes; not posted yet)"
     },
     {
       "id": "re-500",
@@ -72,5 +72,5 @@
     "Property Match (private beta until it is a real Sentoo product)",
     "Merkado Rent Advance / merkado-labs"
   ],
-  "notes": "Commits since e9b246c: payments opened to all sellers (29 Oct), ops email stuck-payment flag, enrichment model docs. Full feature watchlist: docs/03-content-playbook.md section 9."
+  "notes": "6 Nov: six new real-estate sources live with listings (At Home Curacao 129, Sunset Realtors 57, Real Estate Caribe 25, Kostabon 14, Ruseler 14, Joubert 7); not posted yet. Earlier: payments opened to all sellers (29 Oct). Full watchlist: docs/03-content-playbook.md section 9."
 }

@@ -256,9 +256,30 @@ Moved to `AGENTS.md` (what the agent may and may not do, standing approvals).
 
 Moved to the skills `.claude/skills/weekly-run/SKILL.md` and `.claude/skills/daily-check/SKILL.md`. Making one post step by step: `.claude/skills/make-post/SKILL.md`.
 
-## 14. Run report format
+## 14. Run report format (every message from a scheduled run)
 
-Start with one line: what happened. Then, only if relevant: Drafts created (date, slot, title, Metricool link), Pulled posts (why), News found, Data issues (listing id, what disagrees), Needs you (exact action, where to click). Keep it under 15 lines.
+Every message has three parts, in this order (Product Lead, 6 Nov 2026: "I don't always know what you need from me"):
+
+1. **One line on top:** what happened.
+2. **Details**, only if relevant and under 15 lines: drafts created (date, slot, title), pulled posts (why), news found, data issues (listing, what disagrees). Background and reasons live here, never in the block below.
+3. **Action needed**, always the last thing in the message, always present, under its own bold heading:
+   - numbered, at most 3 items, most urgent first;
+   - each item one line: what to do, the exact words to reply in quotes or the exact place to tap, and by when (day and time, Curaçao time);
+   - plain words, no explanations, no links except the Social HQ link;
+   - when nothing is needed: `**Action needed:** nothing. All clear.`
+
+Weekly example:
+```
+**Action needed**
+1. Look at week 46 on Social HQ: <link>
+2. Reply "Approve all" before Monday 11:00. Or "Approve 1 and 3", "Change 2: ...", "Skip 4".
+```
+Daily example when something needs him:
+```
+**Action needed**
+1. Reply "Approve the Featured story" before 17:00 today: the 2021 Kia Picanto is Featured until Sunday.
+2. Instagram: answer the comment on Wednesday's rentals post. Ready reply in captions/reply-kit.md, "Is it still available?".
+```
 
 ## 15. When something fails
 

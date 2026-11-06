@@ -21,8 +21,8 @@ Prepares Monday to Sunday of next week. Read `AGENTS.md` first; its hard rules a
 6. Captions file `captions/<YYYY>-W<ww>.md`.
 7. Update docs/10-calendar.md (what was planned, what is drafted) and `state/posts.csv`. Commit and push.
 8. Update the Social HQ page (artifact `https://claude.ai/artifact/TkELSi7UsrQCugHZ88b6im`): read it first with the Artifact tool (`action: read`), replace only the part between `<!-- THIS-WEEK:START` and `<!-- THIS-WEEK:END -->` (the approval board: the `WEEK` list in the script plus the heading and lede) with this week's posts (images published as files under `week/`, number, day and time, network, caption, checks done) and last week's top numbers, build the `WEEK` list with json.dumps (never hand-typed strings), check the page script with `node --check` and a render test, then publish to the same url. Leave the rest of the page as it is.
-9. Send the approval message (AGENTS.md "Approval message") and push-notify: "Week <ww> is ready: <n> posts waiting for your OK."
-10. When the Product Lead replies: schedule exactly the approved posts (`updateScheduledPost` with `draft: false`, everything else unchanged), make any changes he asked for first and show them again, leave skipped posts as drafts, then confirm each post's time. Log statuses in `state/posts.csv` and `docs/10-calendar.md`.
+9. Send the approval message (AGENTS.md "Approval message"), ending with the **Action needed** block (playbook section 14), and push-notify: "Week <ww> is ready: <n> posts waiting for your OK."
+10. When the Product Lead replies: schedule exactly the approved posts (`updateScheduledPost` with `draft: false`, everything else unchanged), make any changes he asked for first and show them again, leave skipped posts as drafts, then confirm each post's time, ending with the Action needed block (usually "nothing. All clear."). Log statuses in `state/posts.csv` and `docs/10-calendar.md`.
 11. First Sunday of the month: add the monthly report (playbook section 14) to the message.
 
 

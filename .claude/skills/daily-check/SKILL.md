@@ -18,4 +18,4 @@ Keep it short and cheap when nothing needs attention. Read `AGENTS.md` first.
 Push changes to `state/` only when the standing approval in AGENTS.md says APPROVED.
 
 ## Report
-If nothing needs the Product Lead: one line, "All clear." Otherwise start with what needs him (exact action and where to click), then pulled posts, news found and data issues, under 10 lines.
+Use playbook section 14. If nothing needs the Product Lead: one line on what was checked, then `**Action needed:** nothing. All clear.` Otherwise: one line on what happened, then pulled posts, news found and data issues (under 10 lines), then the **Action needed** block last, with the exact reply or place to tap and by when.

@@ -81,4 +81,4 @@ Kept here so they can be recreated exactly. Both routines use the Default cloud 
 - Weekly run: "Get Kolektivo/merkado-socials (push) and Kolektivo/merkado-cw (read). Read AGENTS.md and follow `.claude/skills/weekly-run/SKILL.md`."
 - Daily check: "Get Kolektivo/merkado-socials (push) and Kolektivo/merkado-cw (read). Read AGENTS.md and follow `.claude/skills/daily-check/SKILL.md`."
 
-The full prompt text also repeats the safety rules from AGENTS.md, so a run stays safe even if the repo cannot be read.
+The full prompt text also repeats the safety rules from AGENTS.md, so a run stays safe even if the repo cannot be read. Since 6 Nov 2026 both prompts also require every message to end with the **Action needed** block (playbook section 14), so the Product Lead sees at the bottom exactly what to reply or tap, and by when.

@@ -12,7 +12,9 @@ This repo runs Merkado's social media (Facebook Page and Instagram @merkado.cw).
 
 ## Approval message
 
-Sent at the end of the weekly run, in the run's chat (the Claude app notifies the Product Lead). Short: "Week N is ready", one line per post (number, day and time, what it is), the Social HQ link where every image and caption is shown, what was checked, and how to reply: "Approve all", "Approve 1 and 3", "Change 2: ...", "Skip 4". Each listing gets its one-line reason (bargain, price drop, just added, native).
+Sent at the end of the weekly run, in the run's chat (the Claude app notifies the Product Lead). Short: "Week N is ready", one line per post (number, day and time, what it is), the Social HQ link where every image and caption is shown, and what was checked. Each listing gets its one-line reason (bargain, price drop, just added, native).
+
+Every message from a scheduled run, weekly, daily or any other, ends with an **Action needed** block: numbered, at most 3 items, each with the exact reply ("Approve all", "Approve 1 and 3", "Change 2: ...", "Skip 4") or the exact place to tap, and by when. If nothing is needed it says so: "Action needed: nothing. All clear." Format and examples: `docs/03-content-playbook.md` section 14.
 
 ## Product Lead
 

@@ -1,15 +1,15 @@
 {
   "repo": "Kolektivo/merkado-cw",
   "branch": "main",
-  "last_commit": "ebc5ce92246b47625c3f274e111c4c9094e8b390",
-  "last_commit_title": "fix(ops): list each scrape source once with truthful counts",
-  "last_checked": "2026-11-06",
+  "last_commit": "d42e1be61f1ea7cf7dbd90d931236d2d7318a0f9",
+  "last_commit_title": "fix(real-estate): never truncate card prices on iOS Safari",
+  "last_checked": "2026-11-07",
   "counts": {
-    "date": "2026-11-06",
-    "cars_active": 250,
+    "date": "2026-11-07",
+    "cars_active": 251,
     "real_estate_active": 400,
     "real_estate_with_map_pin": 275,
-    "source": "merkado.cw market snapshot (state/market), 6 Nov 2026"
+    "source": "merkado.cw market snapshot (state/market), 7 Nov 2026"
   },
   "milestones": [
     {

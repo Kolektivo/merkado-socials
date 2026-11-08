@@ -2,6 +2,27 @@
 
 What the numbers and the Product Lead's edits taught us. The weekly run adds a dated entry at the top. Keep each entry short: findings, one change to try, and the result of last week's change.
 
+## 8 Nov 2026: weekly run, week 45 numbers
+
+Numbers (Metricool, posts 2 to 8 Nov):
+- Island Index neighbourhoods (Mon 12:15): Instagram reach 8, 31 views, 3 likes; Facebook reach 9, 12 impressions, 2 reactions. Best Facebook reach so far.
+- Rentals under XCG 3.000 carousel (Wed 18:30): Instagram reach 7, 29 views; Facebook reach 3, 2 clicks.
+- SUVs carousel (Fri 12:15): Instagram reach 5, 15 views; Facebook reach 3, 3 clicks.
+- Stories (Tue 3 Nov Kia Optima): Metricool reports reach 0 and 3 exits, so story reach is not usable yet.
+- Instagram followers 15 (14 on 1 Nov). No saves, shares or comments on any week 45 post.
+- 28 days so far: the launch brand post is still the best post by far (Instagram reach 31). Listing carousels sit at 5 to 9.
+
+Findings:
+1. Week 2 of 3 of the "collect, change nothing" rule: days and times stay. Metricool still has no Instagram best-time data; Facebook again peaks 10:00 to 12:00 on weekdays (Wednesday strongest), which supports 12:15 and puts the Wed 18:30 slot in a weaker hour (watch it next week, change in week 4 only if the rule allows).
+2. Data and brand posts out-reach listing carousels on both networks (Island Index FB 9 vs carousels 3). Facebook clicks come from the carousels (2 and 3), so carousels drive visits even with low reach.
+3. Reach is falling post by post on Instagram (31, 9, 8, 7, 5). With 15 followers almost all reach is followers; the account needs content that travels (shares) or Reels to reach new people.
+4. Supply, not ideas, limits the week: from the cloud run only RE/MAX, Moret and Keller Williams (homes) and Carteam and CuraCars (cars) can be pre-flighted. Six new agencies (At Home 119, Sunset 57, Real Estate Caribe 25, Kostabon 14, Ruseler 14, Joubert 7 listings) have sites outside the cloud network list, economic.cw answers 403, and SeriDomi photos carry the banner. Fix: add the six agency domains to the cloud environment's allowed list (docs/05 "Network access").
+5. The map endpoint `/api/real-estate/map` returns at most 400 listings; `/api/real-estate` (paged) has 567 active on 8 Nov (365 for sale, 202 for rent). The "400 homes" milestone in state/radar.json was the cap, not a real count; the 500 milestone is already passed. Counts for posts must come from the paged endpoint. `scripts/market_scan.py` reads the map, so its home picks miss 167 listings (a script fix, needs the Product Lead's OK as a rules/tools change).
+6. Data issues for merkado-cw: SeriDomi 2023 Kia Picanto is XCG 18.500 at the source and XCG 19.000 on merkado.cw; CuraCars Navara 2009 (260 km) and Amarok 2013 (16 km) show placeholder mileage at the source; Moret's Cocolora photo returns 404 through the merkado.cw image proxy.
+
+Change to try next week: none to the schedule (data rule). Content test: a verified price-drop story (Thu) against last week's just-added story; compare story exits and taps once Metricool reports story reach.
+Result of last week's change (SUV theme with a wide price range vs a narrow bargain theme): SUVs reached Instagram 5 and Facebook 3 with 3 clicks; the city cars bargain carousel reached Instagram 9 and Facebook 4 with 0 clicks. Not conclusive at this size: slightly more reach for the bargain theme, more clicks for the SUVs.
+
 ## 1 Nov 2026: weekly run, week 44 numbers
 
 Numbers (Metricool, 29 Oct to 1 Nov; first three days of posting):

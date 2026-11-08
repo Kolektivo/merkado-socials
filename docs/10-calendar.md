@@ -28,21 +28,25 @@ Planned and drafted by the weekly run on Sun 1 Nov. Captions, checks and Metrico
 
 | Date | Time | Slot | Template | Content | Angle | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mon 2 Nov | 12:15 | Feed (paper) | M4 | Island Index: top neighbourhoods, live counts 1 Nov (Blue Bay 63 of 357). M4 instead of the map: the cloud run cannot reach CARTO tiles | Data, first Monday of the month | scheduled (approved 2 Nov) |
-| Tue 3 Nov | 19:00 | Story | S2 (style B) | 2013 Kia Optima, Economic Auto Center, XCG 8.900,- (replaces the Chrysler 200, Product Lead 2 Nov) | Just added, under XCG 10.000 | scheduled (approved 2 Nov) |
-| Wed 4 Nov | 18:30 | Feed (violet) | Real estate carousel (5 slides) | Rentals under XCG 3.000: Montaña (RE/MAX, replaces Santa Catharina, which RE/MAX marks rented), Steenrijk (Keller Williams), Bottelier (Moret) | Bargain | scheduled (approved again 2 Nov) |
-| Thu 5 Nov | 19:00 | Story | | Open: no listing fits one-per-seller this week. Option offered to the Product Lead | | open |
-| Fri 6 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | SUVs from XCG 14.900, one per seller: Jeep Compass 2016 (Economic), Chevrolet Tahoe 2015 (CuraCars), Audi Q8 2023 (Carteam, price drop) | SUVs, price drop | scheduled (approved 2 Nov) |
+| Mon 2 Nov | 12:15 | Feed (paper) | M4 | Island Index: top neighbourhoods, live counts 1 Nov (Blue Bay 63 of 357). M4 instead of the map: the cloud run cannot reach CARTO tiles | Data, first Monday of the month | published (IG reach 8, FB reach 9) |
+| Tue 3 Nov | 19:00 | Story | S2 (style B) | 2013 Kia Optima, Economic Auto Center, XCG 8.900,- (replaces the Chrysler 200, Product Lead 2 Nov) | Just added, under XCG 10.000 | published |
+| Wed 4 Nov | 18:30 | Feed (violet) | Real estate carousel (5 slides) | Rentals under XCG 3.000: Montaña (RE/MAX, replaces Santa Catharina, which RE/MAX marks rented), Steenrijk (Keller Williams), Bottelier (Moret) | Bargain | published (IG reach 7, FB reach 3, 2 clicks) |
+| Thu 5 Nov | 19:00 | Story | | Open: no listing fits one-per-seller this week. Option offered to the Product Lead | | skipped |
+| Fri 6 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | SUVs from XCG 14.900, one per seller: Jeep Compass 2016 (Economic), Chevrolet Tahoe 2015 (CuraCars), Audi Q8 2023 (Carteam, price drop) | SUVs, price drop | published (IG reach 5, FB reach 3, 3 clicks) |
 
 ### Week 46 (9 to 15 Nov)
 
+Planned and drafted by the weekly run on Sun 8 Nov. Captions, checks and Metricool ids: `captions/2026-W46.md`. Figma page 110:304.
+
 | Date | Time | Slot | Template | Content | Angle | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mon 9 Nov | 12:15 | Feed | T07 (violet) | List on Merkado: free to list, 2 listings included, WhatsApp contact (claims checked on /pricing that day) | Sellers | planned |
-| Tue 10 Nov | 19:00 | Story | T10 | Best car pick of the week (native or verified price drop first) | From the scan | planned |
-| Wed 11 Nov | 18:30 | Feed | Real estate carousel, paper cover | Homes with a pool, one per agency | Lifestyle | planned |
-| Thu 12 Nov | 19:00 | Story | T10 | Best home pick of the week | From the scan | planned |
-| Fri 13 Nov | 12:15 | Feed | Car carousel, violet cover | Under XCG 15.000 or price drops, one per seller | Bargain | planned |
+| Mon 9 Nov | 12:15 | Feed (violet) | M2 | List on Merkado: free to list, 2 listings, WhatsApp, plus one plain line on Featured (XCG 50, 7 days); claims checked on /pricing 8 Nov | Sellers | drafted |
+| Tue 10 Nov | 19:00 | Story | S1 (style C) | Mahaai 1-bedroom apartment, XCG 850,- a month, Moret Real Estate | Rent under XCG 1.000 | drafted |
+| Wed 11 Nov | 18:30 | Feed (paper) | Real estate carousel (5 slides) | Homes with a pool: Jan Thiel house (RE/MAX), Piscadera apartment for rent (Moret), Villapark Fontein villa (Keller Williams) | Lifestyle | drafted |
+| Thu 12 Nov | 19:00 | Story | S2 (style B) | 2018 Nissan Altima, XCG 16.500,-, was XCG 18.500,- on 6 Nov, Carteam Willemstad | Verified price drop | drafted |
+| Fri 13 Nov | 12:15 | Feed (violet) | Car carousel (4 slides) | Cars under XCG 15.000: Range Rover Sport 2009 (Carteam), Kia Picanto 2017 (CuraCars). Only two sellers passed this week | Bargain | drafted |
+
+Stories swapped (home Tuesday, car Thursday) so the price drop gets style B. Moret and Carteam appear twice this week: only three agencies and two car dealers could be checked from the cloud run (captions/2026-W46.md, supply note).
 
 ### Week 47 (16 to 22 Nov)
 

@@ -7,9 +7,9 @@
   "counts": {
     "date": "2026-11-08",
     "cars_active": 262,
-    "real_estate_active": 400,
-    "real_estate_with_map_pin": 275,
-    "source": "merkado.cw market snapshot (state/market), 8 Nov 2026"
+    "real_estate_active": 567,
+    "real_estate_map_endpoint": 400,
+    "source": "merkado.cw /api/cars/count and /api/real-estate (all pages), 8 Nov 2026. The map endpoint caps at 400."
   },
   "milestones": [
     {
@@ -30,17 +30,17 @@
     {
       "id": "re-400",
       "rule": "real_estate_active >= 400",
-      "hit": "2026-11-06 (400 active homes; not posted yet)"
+      "hit": "before 2026-11-06 (567 active on 8 Nov; the 400 seen on 6 Nov was the map endpoint cap); not posted yet"
     },
     {
       "id": "re-500",
       "rule": "real_estate_active >= 500",
-      "hit": null
+      "hit": "by 2026-11-08 (567 active real estate listings, /api/real-estate); not posted yet"
     },
     {
       "id": "total-750",
       "rule": "cars_active + real_estate_active >= 750",
-      "hit": null
+      "hit": "by 2026-11-08 (262 cars + 567 real estate = 829); not posted yet"
     },
     {
       "id": "total-1000",
@@ -72,5 +72,5 @@
     "Property Match (private beta until it is a real Sentoo product)",
     "Merkado Rent Advance / merkado-labs"
   ],
-  "notes": "6 Nov: six new real-estate sources live with listings (At Home Curacao 129, Sunset Realtors 57, Real Estate Caribe 25, Kostabon 14, Ruseler 14, Joubert 7); not posted yet. Earlier: payments opened to all sellers (29 Oct). Full watchlist: docs/03-content-playbook.md section 9."
+  "notes": "6 Nov: six new real-estate sources live with listings (At Home Curacao 129, Sunset Realtors 57, Real Estate Caribe 25, Kostabon 14, Ruseler 14, Joubert 7); not posted yet. Earlier: payments opened to all sellers (29 Oct). Full watchlist: docs/03-content-playbook.md section 9. 8 Nov (weekly run): real estate counts corrected, the map endpoint caps at 400; paged /api/real-estate shows 567 active."
 }

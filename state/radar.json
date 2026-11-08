@@ -3,13 +3,13 @@
   "branch": "main",
   "last_commit": "d42e1be61f1ea7cf7dbd90d931236d2d7318a0f9",
   "last_commit_title": "fix(real-estate): never truncate card prices on iOS Safari",
-  "last_checked": "2026-11-07",
+  "last_checked": "2026-11-08",
   "counts": {
-    "date": "2026-11-07",
-    "cars_active": 251,
+    "date": "2026-11-08",
+    "cars_active": 262,
     "real_estate_active": 400,
     "real_estate_with_map_pin": 275,
-    "source": "merkado.cw market snapshot (state/market), 7 Nov 2026"
+    "source": "merkado.cw market snapshot (state/market), 8 Nov 2026"
   },
   "milestones": [
     {

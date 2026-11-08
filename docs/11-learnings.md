@@ -20,7 +20,9 @@ Findings:
 5. The map endpoint `/api/real-estate/map` returns at most 400 listings; `/api/real-estate` (paged) has 567 active on 8 Nov (365 for sale, 202 for rent). The "400 homes" milestone in state/radar.json was the cap, not a real count; the 500 milestone is already passed. Counts for posts must come from the paged endpoint. `scripts/market_scan.py` reads the map, so its home picks miss 167 listings (a script fix, needs the Product Lead's OK as a rules/tools change).
 6. Data issues for merkado-cw: SeriDomi 2023 Kia Picanto is XCG 18.500 at the source and XCG 19.000 on merkado.cw; CuraCars Navara 2009 (260 km) and Amarok 2013 (16 km) show placeholder mileage at the source; Moret's Cocolora photo returns 404 through the merkado.cw image proxy.
 
-Change to try next week: none to the schedule (data rule). Content test: a verified price-drop story (Thu) against last week's just-added story; compare story exits and taps once Metricool reports story reach.
+7. Product Lead edits (8 Nov): a carousel that mixes homes for sale around XCG 1 million with a rental reads as "weird", and so does a car carousel with only two cars. From now on: one listing type and one price band per real estate carousel, and never a two-listing carousel; when only two sellers pass, use a single post for the strongest listing (a verified price drop or a native listing) instead.
+
+Change to try next week: none to the schedule (data rule). Content test: a single verified price-drop feed post (Fri) against last week's three-car carousels; compare reach, saves, shares and clicks.
 Result of last week's change (SUV theme with a wide price range vs a narrow bargain theme): SUVs reached Instagram 5 and Facebook 3 with 3 clicks; the city cars bargain carousel reached Instagram 9 and Facebook 4 with 0 clicks. Not conclusive at this size: slightly more reach for the bargain theme, more clicks for the SUVs.
 
 ## 1 Nov 2026: weekly run, week 44 numbers

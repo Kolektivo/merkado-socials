@@ -42,11 +42,11 @@ Planned and drafted by the weekly run on Sun 8 Nov. Captions, checks and Metrico
 | --- | --- | --- | --- | --- | --- | --- |
 | Mon 9 Nov | 12:15 | Feed (violet) | M2 | List on Merkado: free to list, 2 listings, WhatsApp, plus one plain line on Featured (XCG 50, 7 days); claims checked on /pricing 8 Nov | Sellers | drafted |
 | Tue 10 Nov | 19:00 | Story | S1 (style C) | Mahaai 1-bedroom apartment, XCG 850,- a month, Moret Real Estate | Rent under XCG 1.000 | drafted |
-| Wed 11 Nov | 18:30 | Feed (paper) | Real estate carousel (5 slides) | Homes with a pool: Jan Thiel house (RE/MAX), Piscadera apartment for rent (Moret), Villapark Fontein villa (Keller Williams) | Lifestyle | drafted |
-| Thu 12 Nov | 19:00 | Story | S2 (style B) | 2018 Nissan Altima, XCG 16.500,-, was XCG 18.500,- on 6 Nov, Carteam Willemstad | Verified price drop | drafted |
-| Fri 13 Nov | 12:15 | Feed (violet) | Car carousel (4 slides) | Cars under XCG 15.000: Range Rover Sport 2009 (Carteam), Kia Picanto 2017 (CuraCars). Only two sellers passed this week | Bargain | drafted |
+| Wed 11 Nov | 18:30 | Feed (paper) | Real estate carousel (5 slides) | Homes with a pool, for sale under XCG 1 million: Villapark Fontein (Moret), Jan Thiel Marbella Estate (Keller Williams), Jan Thiel Flamingo Resort (RE/MAX). Revised 8 Nov: the first version mixed sale and rent | Lifestyle, price band | drafted |
+| Thu 12 Nov | 19:00 | Story | S2 (style B) | 2017 Kia Picanto, XCG 14.000,-, CuraCars (revised 8 Nov) | Bargain under XCG 15.000 | drafted |
+| Fri 13 Nov | 12:15 | Feed (violet) | Price drop post (3 slides: cover, car, end) | 2018 Nissan Altima, XCG 16.500,-, was XCG 18.500,- on 6 Nov, Carteam. Revised 8 Nov: a two-car carousel looked thin; only two car sellers could be checked | Verified price drop | drafted |
 
-Stories swapped (home Tuesday, car Thursday) so the price drop gets style B. Moret and Carteam appear twice this week: only three agencies and two car dealers could be checked from the cloud run (captions/2026-W46.md, supply note).
+Stories: home Tuesday, car Thursday. Moret appears twice this week (Tue story, Wed carousel): only three agencies could be checked from the cloud run (captions/2026-W46.md, supply note). The Range Rover Sport 2009 (XCG 10.000,-, Carteam) waits for a later week.
 
 ### Week 47 (16 to 22 Nov)
 

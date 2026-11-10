@@ -41,10 +41,10 @@ Planned and drafted by the weekly run on Sun 8 Nov. Captions, checks and Metrico
 | Date | Time | Slot | Template | Content | Angle | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | Mon 9 Nov | 12:15 | Feed (violet) | M2 | List on Merkado: free to list, 2 listings, WhatsApp, plus one plain line on Featured (XCG 50, 7 days); claims checked on /pricing 8 Nov | Sellers | scheduled (approved 9 Nov) |
-| Tue 10 Nov | 19:00 | Story | S1 (style C) | Mahaai 1-bedroom apartment, XCG 850,- a month, Moret Real Estate | Rent under XCG 1.000 | scheduled (approved 9 Nov) |
-| Wed 11 Nov | 18:30 | Feed (paper) | Real estate carousel (5 slides) | Family homes for rent, 3+ bedrooms, from XCG 1.550: Montaña (Moret), Semikok (Keller Williams), Grote Berg (RE/MAX). Replaces the pool post (Product Lead 8 Nov) | Family, demand | scheduled (approved 9 Nov) |
+| Tue 10 Nov | 19:00 | Story | S1 (style C) | Mahaai 1-bedroom apartment, XCG 850,- a month, Moret Real Estate | Rent under XCG 1.000 | pulled to draft 10 Nov (Mahaai listing gone from merkado.cw 10 Nov); needs replacement |
+| Wed 11 Nov | 18:30 | Feed (paper) | Real estate carousel (5 slides) | Family homes for rent, 3+ bedrooms, from XCG 1.550: Montaña (Moret), Semikok (Keller Williams), Grote Berg (RE/MAX). Replaces the pool post (Product Lead 8 Nov) | Family, demand | pulled to draft 10 Nov (Montaña listing gone from merkado.cw 10 Nov); needs replacement |
 | Thu 12 Nov | 19:00 | Story | S2 (style B) | 2017 Kia Picanto, XCG 14.000,-, CuraCars (revised 8 Nov) | Bargain under XCG 15.000 | scheduled (approved 9 Nov) |
-| Fri 13 Nov | 12:15 | Feed (paper first image) | Price drop post (2 slides: car, end) | 2018 Nissan Altima, XCG 16.500,-, was XCG 18.500,- on 6 Nov, Carteam. Car slide first, no cover (Product Lead 8 Nov), so Wed and Fri both open on paper | Verified price drop | scheduled (approved 9 Nov) |
+| Fri 13 Nov | 12:15 | Feed (paper first image) | Price drop post (2 slides: car, end) | 2018 Nissan Altima, XCG 16.500,-, was XCG 18.500,- on 6 Nov, Carteam. Car slide first, no cover (Product Lead 8 Nov), so Wed and Fri both open on paper | Verified price drop | pulled to draft 10 Nov (Altima gone from merkado.cw 10 Nov); needs replacement |
 
 Stories: home Tuesday, car Thursday. Moret appears twice this week (Tue story, Wed carousel): only three agencies could be checked from the cloud run (captions/2026-W46.md, supply note). The Range Rover Sport 2009 (XCG 10.000,-, Carteam) waits for a later week.
 

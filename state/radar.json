@@ -3,7 +3,7 @@
   "branch": "main",
   "last_commit": "4a79b34",
   "last_commit_title": "fix(real-estate): never truncate card prices on iOS Safari",
-  "last_checked": "2026-11-12",
+  "last_checked": "2026-11-13",
   "counts": {
     "date": "2026-11-08",
     "cars_active": 262,

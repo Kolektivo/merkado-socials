@@ -20,9 +20,9 @@ Interactive work (new templates, campaigns, fixes) happens in Claude Code or Cur
 
 ## Network access for cloud runs
 
-Cloud runs (Claude Code routines) can only reach the domains their cloud environment allows. The Figma and Metricool connectors do not need an entry: connector traffic goes through Anthropic, not the session's network. GitHub is allowed by default.
+Cloud runs (Claude Code routines) can only reach the domains their cloud environment allows. Both routines use the **Merkado** cloud environment (`env_018jLZKnrPEUDVuAwCD31mfS`, created 14 Nov 2026), which exists only for these runs; the account's Default environment is not used. The Figma and Metricool connectors do not need an entry: connector traffic goes through Anthropic, not the session's network. GitHub is allowed by default.
 
-Set it on claude.ai/code: environment selector (first control under the message box) → Cloud → hover the **Default** environment → settings icon → **Network access** → **Custom**, tick **Also include default domains**, and list one per line:
+Set it on claude.ai/code: environment selector (first control under the message box) → Cloud → hover the **Merkado** environment → settings icon → **Network access** → **Custom**, tick **Also include default domains**, and list one per line:
 
 ```
 merkado.cw
@@ -98,7 +98,7 @@ Figma's domains are needed because photo uploads and image exports go from the s
 
 ## Routine prompts
 
-Kept here so they can be recreated exactly. Both routines use the Default cloud environment, check out both repos, and are scheduled in UTC (weekly `37 20 * * 0`, daily `36 11 * * *`; Curaçao is UTC-4 all year).
+Kept here so they can be recreated exactly. Both routines use the Merkado cloud environment (no repositories set on the environment itself), check out both repos, and are scheduled in UTC (weekly `37 20 * * 0`, daily `36 11 * * *`; Curaçao is UTC-4 all year). Saving a routine in the claude.ai Routines editor adds generated side branches (for example `feat/exciting-tesla`) as push targets for both repos. That breaks the push to `main` and gives merkado-cw a writable branch. After any edit there, remove them again through the routines API (send the full `job_config.ccr` without `outcomes`), as done on 14 Nov 2026.
 
 - Weekly run: "Get Kolektivo/merkado-socials (push) and Kolektivo/merkado-cw (read). Read AGENTS.md and follow `.claude/skills/weekly-run/SKILL.md`."
 - Daily check: "Get Kolektivo/merkado-socials (push) and Kolektivo/merkado-cw (read). Read AGENTS.md and follow `.claude/skills/daily-check/SKILL.md`."

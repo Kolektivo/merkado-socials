@@ -26,23 +26,45 @@ Set it on claude.ai/code: environment selector (first control under the message 
 
 ```
 merkado.cw
+*.merkado.cw
 figma.com
 *.figma.com
+raw.githubusercontent.com
+basemaps.cartocdn.com
+*.basemaps.cartocdn.com
 autobedrijfwillemstad.com
 *.autobedrijfwillemstad.com
 curacars.com
 *.curacars.com
 seridomi.com
+*.seridomi.com
 economic.cw
 *.economic.cw
 realestate-curacao.com
 *.realestate-curacao.com
+remax-abc.com
+*.remax-abc.com
 kw-curacao.com
+*.kw-curacao.com
 moretrealestate.com
+*.moretrealestate.com
+athomecuracao.com
+*.athomecuracao.com
+sunset-realtors.com
+*.sunset-realtors.com
+realestatecaribe.com
+*.realestatecaribe.com
+kostabon.com
+*.kostabon.com
+ruselermakelaars.com
+*.ruselermakelaars.com
+joubertrealty.com
+*.joubertrealty.com
 monumentenzorg.cw
+*.monumentenzorg.cw
 ```
 
-Figma's domains are needed because photo uploads and image exports go from the shell. The seller sites are needed for the pre-flight check at the source. Add a domain here when a new seller source appears. Note: claude.ai Settings → Capabilities → "Allow network egress" is a different setting (for claude.ai chats), not used by the cloud runs.
+Figma's domains are needed because photo uploads and image exports go from the shell. The CARTO domains draw the island map (T08). The seller sites (and their photo hosts, such as RE/MAX's cdn.remax-abc.com and Economic's directus.economic.cw) are needed for the pre-flight check at the source and the listing photos. List checked against every seller on merkado.cw on 14 Nov 2026: 4 car dealers, 10 agencies. Add a domain here when a new seller source appears. Note: claude.ai Settings → Capabilities → "Allow network egress" is a different setting (for claude.ai chats), not used by the cloud runs.
 
 ## How a post is made
 

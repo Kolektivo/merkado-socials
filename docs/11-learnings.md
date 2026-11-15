@@ -2,6 +2,26 @@
 
 What the numbers and the Product Lead's edits taught us. The weekly run adds a dated entry at the top. Keep each entry short: findings, one change to try, and the result of last week's change.
 
+## 15 Nov 2026: weekly run, week 46 numbers
+
+Numbers (Metricool, posts 9 to 15 Nov, read 15 Nov):
+- List on Merkado (Mon 12:15): Instagram reach 6, 23 views, 1 like; Facebook reach 2.
+- Family rentals carousel (Wed 18:30): Instagram reach 8, 39 views, 2 likes; Facebook reach 1.
+- Ford Expedition price drop, single (Fri 12:15): Instagram reach 5, 29 views; Facebook reach 2.
+- Stories (Thu Picanto, Sat Pietermaai): published; Metricool still reports no story reach.
+- Instagram followers 16 (15 on 9 Nov). No saves, shares or comments on any week 46 post, and no Facebook link clicks.
+- 28 days: launch post still first (Instagram 31). Every post since sits at Instagram 5 to 9 and Facebook 1 to 9.
+
+Findings:
+1. Week 4 of posting, so the schedule may change. Facebook best time (Metricool, 8 to 15 Nov) peaks 10:00 to 12:00 every weekday; Wednesday 12:00 scores 15.834 against 11.305 at 18:00 (40% higher). Our own Facebook reach agrees: the two Wednesday 18:30 carousels reached 3 and 1, the 12:15 posts average about 4. Instagram has no best-time data, and its Wednesday evening reach (7, 8) is in line with lunchtime (5 to 9), so moving costs little there.
+2. The single price-drop post (last week's test) did not beat carousels: Instagram 5 and Facebook 2, against 8 and 1 for the carousel that week. Keep carousels as the default; singles only for a strong reason.
+3. Reach has been flat at 5 to 8 on Instagram for three weeks, with about 16 followers. Content alone will not grow it; the 8-week review (20 Dec) should weigh Reels made from the carousels.
+4. Supply is much better: all 10 agency sites and economic.cw answer from the cloud run since the 14 Nov network list. Economic Auto Center lists 171 of 251 cars, so it is now the main car source (no mileage on any listing). Live counts 15 Nov: 251 cars (262 on 8 Nov), 533 real estate (567 on 8 Nov): 362 for sale, 171 for rent (202 on 8 Nov).
+5. Data issues for merkado-cw: RE/MAX hs3108 (Sun Valley villa) shows "Under contract" at RE/MAX but active on merkado.cw; CuraCars mileages 166 km (Qashqai 2011) and 1 km (EcoSport 2015) are placeholders; CuraCars' VW Up! first photo is stored sideways; the native Honda Accord's first photo is a collage.
+
+Change to try next week: Wednesday real estate carousel moves from 18:30 to 12:15 (Facebook and Instagram together). Compare its reach with the 18:30 carousels (Instagram 7 and 8, Facebook 3 and 1). The playbook table (section 5) still says 18:30; it needs the Product Lead's OK to change it there.
+Result of last week's change (single price-drop post on Friday): not better than a carousel (finding 2).
+
 ## 8 Nov 2026: weekly run, week 45 numbers
 
 Numbers (Metricool, posts 2 to 8 Nov):

@@ -40,29 +40,38 @@ Planned and drafted by the weekly run on Sun 8 Nov. Captions, checks and Metrico
 
 | Date | Time | Slot | Template | Content | Angle | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mon 9 Nov | 12:15 | Feed (violet) | M2 | List on Merkado: free to list, 2 listings, WhatsApp, plus one plain line on Featured (XCG 50, 7 days); claims checked on /pricing 8 Nov | Sellers | scheduled (approved 9 Nov) |
-| Wed 11 Nov | 18:30 | Feed (paper) | Real estate carousel (5 slides) | Family homes for rent, 3+ bedrooms, from XCG 2.750: Kwartje (Moret, replaces Montaña, gone from merkado.cw 10 Nov), Semikok (Keller Williams), Grote Berg (RE/MAX). Replaces the pool post (Product Lead 8 Nov) | Family, demand | drafted 10 Nov, waiting for approval |
-| Thu 12 Nov | 19:00 | Story | S2 (style B) | 2017 Kia Picanto, XCG 14.000,-, CuraCars (revised 8 Nov) | Bargain under XCG 15.000 | scheduled (approved 9 Nov) |
-| Fri 13 Nov | 12:15 | Feed (paper first image) | Price drop post (2 slides: car, end) | 2017 Ford Expedition, XCG 19.900,-, was XCG 22.900,- on 6 Nov, Carteam (replaces the Nissan Altima, gone from merkado.cw 10 Nov). Car slide first, no cover (Product Lead 8 Nov), so Wed and Fri both open on paper | Verified price drop | drafted 10 Nov, waiting for approval |
-| Sat 14 Nov | 19:00 | Story | S1 (style C) | Pietermaai 1-bedroom apartment, XCG 1.100,- a month, Moret Real Estate (replaces Mahaai, gone from merkado.cw 10 Nov; missed its Tue 10 Nov slot unapproved, moved to Saturday by the Product Lead 11 Nov) | Just added | scheduled (approved 11 Nov) |
+| Mon 9 Nov | 12:15 | Feed (violet) | M2 | List on Merkado: free to list, 2 listings, WhatsApp, plus one plain line on Featured (XCG 50, 7 days); claims checked on /pricing 8 Nov | Sellers | published (IG reach 6, FB reach 2) |
+| Wed 11 Nov | 18:30 | Feed (paper) | Real estate carousel (5 slides) | Family homes for rent, 3+ bedrooms, from XCG 2.750: Kwartje (Moret, replaces Montaña, gone from merkado.cw 10 Nov), Semikok (Keller Williams), Grote Berg (RE/MAX). Replaces the pool post (Product Lead 8 Nov) | Family, demand | published (IG reach 8, FB reach 1) |
+| Thu 12 Nov | 19:00 | Story | S2 (style B) | 2017 Kia Picanto, XCG 14.000,-, CuraCars (revised 8 Nov) | Bargain under XCG 15.000 | published |
+| Fri 13 Nov | 12:15 | Feed (paper first image) | Price drop post (2 slides: car, end) | 2017 Ford Expedition, XCG 19.900,-, was XCG 22.900,- on 6 Nov, Carteam (replaces the Nissan Altima, gone from merkado.cw 10 Nov). Car slide first, no cover (Product Lead 8 Nov), so Wed and Fri both open on paper | Verified price drop | published (IG reach 5, FB reach 2) |
+| Sat 14 Nov | 19:00 | Story | S1 (style C) | Pietermaai 1-bedroom apartment, XCG 1.100,- a month, Moret Real Estate (replaces Mahaai, gone from merkado.cw 10 Nov; missed its Tue 10 Nov slot unapproved, moved to Saturday by the Product Lead 11 Nov) | Just added | published |
 
 Stories: car Thursday, home Saturday (moved from Tuesday). Moret appears twice this week (Sat story, Wed carousel): only three agencies could be checked from the cloud run (captions/2026-W46.md, supply note). The Range Rover Sport 2009 (XCG 10.000,-, Carteam) waits for a later week.
 
 ### Week 47 (16 to 22 Nov)
 
+Planned and drafted by the weekly run on Sun 15 Nov. Captions, checks and Metricool ids: `captions/2026-W47.md`. Figma page 122:245. One schedule change: Wednesday moves from 18:30 to 12:15 (docs/11-learnings.md, 15 Nov).
+
+| Date | Time | Slot | Template | Content | Angle | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mon 16 Nov | 12:15 | Feed (paper) | M1 | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?") | Brand | drafted 15 Nov, waiting for approval |
+| Tue 17 Nov | 19:00 | Story | S2 (style B) | Furnished 3-bedroom house in Montaña for rent, XCG 2.950,- a month, was XCG 3.500,- until 10 Nov, Moret Real Estate | Verified price drop | drafted 15 Nov, waiting for approval |
+| Wed 18 Nov | 12:15 | Feed (violet) | Real estate carousel (5 slides) | Homes for sale under XCG 500.000, one per agency: Dokterstuin (Joubert Realty), Mahuma (Real Estate Caribe), Bottelier (Sunset Realtors) | Bargain | drafted 15 Nov, waiting for approval |
+| Thu 19 Nov | 19:00 | Story | S1 (style C) | 2020 Honda Accord, 41.500 km, XCG 38.500,-, listed directly on Merkado by a private seller (13 Nov) | Native listing, just added | drafted 15 Nov, waiting for approval |
+| Fri 20 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | Cars under XCG 15.000, one per seller: Range Rover Sport 2009 (Carteam), Nissan Versa 2018 (Economic), Volkswagen Up! 2019 (CuraCars) | Bargain | drafted 15 Nov, waiting for approval |
+
+Grid check 15 Nov: Wed 11 and Fri 13 Nov both opened on paper, and the comment section is paper only, so Monday makes a third paper post in a row. From Monday the order alternates again (Mon paper, Wed violet, Fri paper, Mon 23 violet), so the planned violet Partner post fits.
+
+### Week 48 and later (planned)
+
 | Date | Time | Slot | Template | Content | Status |
 | --- | --- | --- | --- | --- | --- |
-| Mon 16 Nov | 12:15 | Feed | T01 (paper) | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?"), Figma 85:183 | Brand | planned |
 | Mon 23 Nov | 12:15 | Feed | Violet, partner banner style | Partner with Merkado: for dealerships and agencies (captions/2026-W48.md); two design options first | planned |
 | Thu 26 Nov | 19:00 | Story (extra) | Story, style B or C | Sell it on Merkado: list free, buyers contact you on WhatsApp (playbook 4, "Earning money") | planned |
 | Mon 30 Nov | 12:15 | Feed | T05 + T06, paper cover | Before you buy: used car checklist (from merkado.cw/resources/used-car-checklist-curacao), moved from 23 Nov | planned |
-| Tue 17 Nov | 19:00 | Story | T11 | Live listing | planned |
-| Wed 18 Nov | 18:30 | Feed | T03 | On Merkado now: live home for rent | planned |
-| Thu 19 Nov | 19:00 | Story | T11 | Live listing | planned |
-| Fri 20 Nov | 12:15 | Feed | T12 | On Merkado now: live car | planned |
 
 
-Grid order (Product Lead, 29 Oct): feed posts alternate paper and violet. From the launch: Thu 29 Oct paper, Fri 30 Oct violet, Mon 2 Nov paper, Wed 4 Nov violet, Fri 6 Nov paper, Mon 9 Nov violet, Wed 11 Nov paper, Fri 13 Nov paper (car slide first, Product Lead 8 Nov), Mon 16 Nov paper planned: check the order before scheduling week 47. The business-pages What's new post waits until Weber & Weber has listings on its page (it showed none on 29 Oct).
+Grid order (Product Lead, 29 Oct): feed posts alternate paper and violet. From the launch: Thu 29 Oct paper, Fri 30 Oct violet, Mon 2 Nov paper, Wed 4 Nov violet, Fri 6 Nov paper, Mon 9 Nov violet, Wed 11 Nov paper, Fri 13 Nov paper (car slide first, Product Lead 8 Nov), Mon 16 Nov paper, Wed 18 Nov violet, Fri 20 Nov paper, Mon 23 Nov violet planned (checked 15 Nov). The business-pages What's new post waits until Weber & Weber has listings on its page (it showed none on 29 Oct).
 
 From Fri 6 Nov every car and real estate carousel caption ends with the soft seller line (playbook section 4, "Earning money, the natural way").
 

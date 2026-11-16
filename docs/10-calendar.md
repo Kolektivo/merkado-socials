@@ -54,11 +54,11 @@ Planned and drafted by the weekly run on Sun 15 Nov. Captions, checks and Metric
 
 | Date | Time | Slot | Template | Content | Angle | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mon 16 Nov | 12:15 | Feed (paper) | M1 | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?") | Brand | drafted 15 Nov, waiting for approval |
-| Tue 17 Nov | 19:00 | Story | S2 (style B) | Furnished 3-bedroom house in Montaña for rent, XCG 2.950,- a month, was XCG 3.500,- until 10 Nov, Moret Real Estate | Verified price drop | drafted 15 Nov, waiting for approval |
-| Wed 18 Nov | 12:15 | Feed (violet) | Real estate carousel (5 slides) | Homes for sale under XCG 500.000, one per agency: Dokterstuin (Joubert Realty), Mahuma (Real Estate Caribe), Bottelier (Sunset Realtors) | Bargain | drafted 15 Nov, waiting for approval |
-| Thu 19 Nov | 19:00 | Story | S1 (style C) | 2020 Honda Accord, 41.500 km, XCG 38.500,-, listed directly on Merkado by a private seller (13 Nov) | Native listing, just added | drafted 15 Nov, waiting for approval |
-| Fri 20 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | Cars under XCG 15.000, one per seller: Range Rover Sport 2009 (Carteam), Nissan Versa 2018 (Economic), Volkswagen Up! 2019 (CuraCars) | Bargain | drafted 15 Nov, waiting for approval |
+| Mon 16 Nov | 12:15 | Feed (paper) | M1 | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?") | Brand | scheduled (approved 16 Nov) |
+| Tue 17 Nov | 19:00 | Story | S2 (style B) | Furnished 3-bedroom house in Montaña for rent, XCG 2.950,- a month, was XCG 3.500,- until 10 Nov, Moret Real Estate | Verified price drop | scheduled (approved 16 Nov) |
+| Wed 18 Nov | 12:15 | Feed (violet) | Real estate carousel (5 slides) | Homes for sale under XCG 500.000, one per agency: Dokterstuin (Joubert Realty), Mahuma (Real Estate Caribe), Bottelier (Sunset Realtors) | Bargain | scheduled (approved 16 Nov) |
+| Thu 19 Nov | 19:00 | Story | S1 (style C) | 2020 Honda Accord, 41.500 km, XCG 38.500,-, listed directly on Merkado by a private seller (13 Nov) | Native listing, just added | scheduled (approved 16 Nov) |
+| Fri 20 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | Cars under XCG 15.000, one per seller: Range Rover Sport 2009 (Carteam), Nissan Versa 2018 (Economic), Volkswagen Up! 2019 (CuraCars) | Bargain | scheduled (approved 16 Nov) |
 
 Grid check 15 Nov: Wed 11 and Fri 13 Nov both opened on paper, and the comment section is paper only, so Monday makes a third paper post in a row. From Monday the order alternates again (Mon paper, Wed violet, Fri paper, Mon 23 violet), so the planned violet Partner post fits.
 

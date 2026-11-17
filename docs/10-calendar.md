@@ -56,7 +56,7 @@ Planned and drafted by the weekly run on Sun 15 Nov. Captions, checks and Metric
 | --- | --- | --- | --- | --- | --- | --- |
 | Mon 16 Nov | 12:15 | Feed (paper) | M1 | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?") | Brand | scheduled (approved 16 Nov) |
 | Tue 17 Nov | 19:00 | Story | S2 (style B) | Furnished 3-bedroom house in Montaña for rent, XCG 2.950,- a month, was XCG 3.500,- until 10 Nov, Moret Real Estate | Verified price drop | scheduled (approved 16 Nov) |
-| Wed 18 Nov | 12:15 | Feed (violet) | Real estate carousel (5 slides) | Homes for sale under XCG 500.000, one per agency: Kaya Ternura (Joubert Realty, replaces Dokterstuin, Sold Pending notary), Mahuma (Real Estate Caribe), Bottelier (Sunset Realtors) | Bargain | drafted 17 Nov, needs approval |
+| Wed 18 Nov | 12:15 | Feed (violet) | Real estate carousel (5 slides) | Homes for sale under XCG 500.000, one per agency: Kaya Ternura (Joubert Realty, replaces Dokterstuin, Sold Pending notary), Mahuma (Real Estate Caribe), Bottelier (Sunset Realtors) | Bargain | scheduled (approved 17 Nov) |
 | Thu 19 Nov | 19:00 | Story | S1 (style C) | 2020 Honda Accord, 41.500 km, XCG 38.500,-, listed directly on Merkado by a private seller (13 Nov) | Native listing, just added | scheduled (approved 16 Nov) |
 | Fri 20 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | Cars under XCG 15.000, one per seller: Range Rover Sport 2009 (Carteam), Nissan Versa 2018 (Economic), Volkswagen Up! 2019 (CuraCars) | Bargain | scheduled (approved 16 Nov) |
 

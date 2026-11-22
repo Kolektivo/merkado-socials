@@ -54,24 +54,35 @@ Planned and drafted by the weekly run on Sun 15 Nov. Captions, checks and Metric
 
 | Date | Time | Slot | Template | Content | Angle | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mon 16 Nov | 12:15 | Feed (paper) | M1 | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?") | Brand | scheduled (approved 16 Nov) |
-| Tue 17 Nov | 19:00 | Story | S2 (style B) | Furnished 3-bedroom house in Montaña for rent, XCG 2.950,- a month, was XCG 3.500,- until 10 Nov, Moret Real Estate | Verified price drop | scheduled (approved 16 Nov) |
-| Wed 18 Nov | 12:15 | Feed (violet) | Real estate carousel (5 slides) | Homes for sale under XCG 500.000, one per agency: Kaya Ternura (Joubert Realty, replaces Dokterstuin, Sold Pending notary), Mahuma (Real Estate Caribe), Bottelier (Sunset Realtors) | Bargain | scheduled (approved 17 Nov) |
-| Thu 19 Nov | 19:00 | Story | S1 (style C) | 2020 Honda Accord, 41.500 km, XCG 38.500,-, listed directly on Merkado by a private seller (13 Nov) | Native listing, just added | scheduled (approved 16 Nov) |
-| Fri 20 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | Cars under XCG 15.000, one per seller: Range Rover Sport 2009 (Carteam), Nissan Versa 2018 (Economic), Volkswagen Up! 2019 (CuraCars) | Bargain | scheduled (approved 16 Nov) |
+| Mon 16 Nov | 12:15 | Feed (paper) | M1 | The comment section, homes edition ("Price? Which area? Still for rent?? Pets allowed?") | Brand | published (IG reach 8, FB reach 3) |
+| Tue 17 Nov | 19:00 | Story | S2 (style B) | Furnished 3-bedroom house in Montaña for rent, XCG 2.950,- a month, was XCG 3.500,- until 10 Nov, Moret Real Estate | Verified price drop | published on Facebook; Instagram failed (media not found) |
+| Wed 18 Nov | 12:15 | Feed (violet) | Real estate carousel (5 slides) | Homes for sale under XCG 500.000, one per agency: Kaya Ternura (Joubert Realty, replaces Dokterstuin, Sold Pending notary), Mahuma (Real Estate Caribe), Bottelier (Sunset Realtors) | Bargain | published (IG reach 8, FB reach 3) |
+| Thu 19 Nov | 19:00 | Story | S1 (style C) | 2020 Honda Accord, 41.500 km, XCG 38.500,-, listed directly on Merkado by a private seller (13 Nov) | Native listing, just added | published |
+| Fri 20 Nov | 12:15 | Feed (paper) | Car carousel (5 slides) | Cars under XCG 15.000, one per seller: Range Rover Sport 2009 (Carteam), Nissan Versa 2018 (Economic), Volkswagen Up! 2019 (CuraCars) | Bargain | published (IG reach 6, FB reach 0 after 2 days) |
 
 Grid check 15 Nov: Wed 11 and Fri 13 Nov both opened on paper, and the comment section is paper only, so Monday makes a third paper post in a row. From Monday the order alternates again (Mon paper, Wed violet, Fri paper, Mon 23 violet), so the planned violet Partner post fits.
 
-### Week 48 and later (planned)
+### Week 48 (23 to 29 Nov)
+
+Planned and drafted by the weekly run on Sun 22 Nov. Captions, checks and Metricool ids: `captions/2026-W48.md`. Figma page 136:148. No schedule change this week.
+
+| Date | Time | Slot | Template | Content | Angle | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mon 23 Nov | 12:15 | Feed (violet) | M2 layout, new design | Partner with Merkado for dealerships and agencies, live counts 22 Nov (261 cars, 528 real estate). Option B drafted, option A on Social HQ | Partners | drafted |
+| Mon 23 Nov | 19:00 | Story | S1 (style C) | Land in Vista Royal, Jan Thiel, 2.390 m², XCG 3.800.500,-, the first property listed directly on Merkado (private seller, 16 Nov) | Native listing, just added | drafted |
+| Wed 25 Nov | 12:15 | Feed (paper) | Real estate carousel (5 slides) | Rentals under XCG 3.000: Brakkeput Abou (Real Estate Caribe), Bottelier (Moret), Jan Thiel (At Home) | Bargain | drafted |
+| Thu 26 Nov | 19:00 | Story | M2 layout, story size | Sell it on Merkado: list free, 2 listings, WhatsApp (monthly Sell story) | Sellers | drafted |
+| Fri 27 Nov | 12:15 | Feed (violet) | Car carousel (5 slides) | Price drops this week: Honda Civic 2020 (CuraCars), Chevrolet Tahoe 2009 (Carteam), Haval H6 2020 (Economic) | Verified price drops | drafted |
+
+### Week 49 and later (planned)
 
 | Date | Time | Slot | Template | Content | Status |
 | --- | --- | --- | --- | --- | --- |
-| Mon 23 Nov | 12:15 | Feed | Violet, partner banner style | Partner with Merkado: for dealerships and agencies (captions/2026-W48.md); two design options first | planned |
-| Thu 26 Nov | 19:00 | Story (extra) | Story, style B or C | Sell it on Merkado: list free, buyers contact you on WhatsApp (playbook 4, "Earning money") | planned |
-| Mon 30 Nov | 12:15 | Feed | T05 + T06, paper cover | Before you buy: used car checklist (from merkado.cw/resources/used-car-checklist-curacao), moved from 23 Nov | planned |
+| Mon 30 Nov | 12:15 | Feed | T05 + T06, paper cover | Before you buy: used car checklist (from merkado.cw/resources/used-car-checklist-curacao) | planned |
+| Mon 7 Dec | 12:15 | Feed | M3 or M4, paper | Island Index, first full week of December, counts live that day | planned |
 
 
-Grid order (Product Lead, 29 Oct): feed posts alternate paper and violet. From the launch: Thu 29 Oct paper, Fri 30 Oct violet, Mon 2 Nov paper, Wed 4 Nov violet, Fri 6 Nov paper, Mon 9 Nov violet, Wed 11 Nov paper, Fri 13 Nov paper (car slide first, Product Lead 8 Nov), Mon 16 Nov paper, Wed 18 Nov violet, Fri 20 Nov paper, Mon 23 Nov violet planned (checked 15 Nov). The business-pages What's new post waits until Weber & Weber has listings on its page (it showed none on 29 Oct).
+Grid order (Product Lead, 29 Oct): feed posts alternate paper and violet. From the launch: Thu 29 Oct paper, Fri 30 Oct violet, Mon 2 Nov paper, Wed 4 Nov violet, Fri 6 Nov paper, Mon 9 Nov violet, Wed 11 Nov paper, Fri 13 Nov paper (car slide first, Product Lead 8 Nov), Mon 16 Nov paper, Wed 18 Nov violet, Fri 20 Nov paper, Mon 23 Nov violet, Wed 25 Nov paper, Fri 27 Nov violet (checked 22 Nov), so Mon 30 Nov is paper. The business-pages What's new post waits until Weber & Weber has listings on its page (it showed none on 29 Oct).
 
 From Fri 6 Nov every car and real estate carousel caption ends with the soft seller line (playbook section 4, "Earning money, the natural way").
 

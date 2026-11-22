@@ -2,6 +2,26 @@
 
 What the numbers and the Product Lead's edits taught us. The weekly run adds a dated entry at the top. Keep each entry short: findings, one change to try, and the result of last week's change.
 
+## 22 Nov 2026: weekly run, week 47 numbers
+
+Numbers (Metricool, posts 16 to 22 Nov, read 22 Nov):
+- The comment section, homes edition (Mon 12:15): Instagram reach 8, 33 views, 2 likes; Facebook reach 3.
+- Homes for sale under XCG 500.000 carousel (Wed, moved to 12:15): Instagram reach 8, 38 views; Facebook reach 3, 4 impressions.
+- Cars under XCG 15.000 carousel (Fri 12:15, 2 days old): Instagram reach 6, 18 views, 2 likes; Facebook reach 0 so far.
+- Stories: Thu Honda Accord published on both networks. Tue Montaña story published on Facebook only; Instagram returned "media cannot be found".
+- Instagram followers 16 (16 on 15 Nov). No saves, shares or comments on any week 47 post, and no Facebook link clicks.
+- Metricool now reports the older Wednesday 18:30 carousels at Facebook reach 3 (4 Nov) and 2 (11 Nov), Instagram 8 and 10.
+
+Findings:
+1. Wednesday 12:15 (last week's change) reached Facebook 3 against 3 and 2 for the 18:30 Wednesdays (about +20%, under the 30% bar), Instagram 8 against 8 and 10. Not a clear win, not a loss. Keep 12:15: Metricool's Facebook best time (15 to 22 Nov) still peaks 10:00 to 12:00 on weekdays (Wednesday 12:00 scores 15.834 against 11.305 at 18:00). Instagram still has no best-time data.
+2. Followers are flat (16 for two weeks) and no post has had a save or share since launch week. The account reaches its followers and little more; the 8-week review (20 Dec) should weigh Reels made from the carousels.
+3. One automatic story failed on Instagram (media not found) while Facebook published. The daily check should look at each story's provider status after 19:00 and tell the Product Lead the same evening.
+4. Supply: Economic Auto Center (economic.cw) answers again with a browser user agent, so Economic cars can be pre-flighted. Carteam, CuraCars and Economic all had verified price drops this week, enough for a three-seller price-drop carousel. Live counts 22 Nov: 261 cars, 528 real estate (360 for sale, 168 for rent).
+5. Data issues for merkado-cw: Joubert Realty rentals show about 1.6% more on merkado.cw than on Joubert's pages (Kaya Kashimiri and Kaya Tert XCG 1.880 vs 1.850, Papaya Resort XCG 2.685 vs 2.650); the first native property (Vista Royal land) has a map app screenshot as its first photo; Economic's Chevrolet Silverado slug says 2021, the listing says 2022.
+
+Change to try next week: none to the schedule (one change per week; Wednesday stays at 12:15). Content test: a three-seller price-drop carousel (Fri) against last week's under-XCG 15.000 carousel; compare reach, saves, shares and clicks.
+Result of last week's change (Wednesday 18:30 to 12:15): Facebook 3 vs 2.5 average, Instagram 8 vs 9 average; inconclusive, kept (finding 1).
+
 ## 15 Nov 2026: weekly run, week 46 numbers
 
 Numbers (Metricool, posts 9 to 15 Nov, read 15 Nov):

@@ -68,11 +68,11 @@ Planned and drafted by the weekly run on Sun 22 Nov. Captions, checks and Metric
 
 | Date | Time | Slot | Template | Content | Angle | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mon 23 Nov | 12:15 | Feed (violet) | M2 layout, new design | Partner with Merkado for dealerships and agencies, live counts 22 Nov (261 cars, 528 real estate). Option B drafted, option A on Social HQ | Partners | drafted |
-| Mon 23 Nov | 19:00 | Story | S1 (style C) | Land in Vista Royal, Jan Thiel, 2.390 m², XCG 3.800.500,-, the first property listed directly on Merkado (private seller, 16 Nov) | Native listing, just added | drafted |
-| Wed 25 Nov | 12:15 | Feed (paper) | Real estate carousel (5 slides) | Rentals under XCG 3.000: Brakkeput Abou (Real Estate Caribe), Bottelier (Moret), Jan Thiel (At Home) | Bargain | drafted |
-| Thu 26 Nov | 19:00 | Story | M2 layout, story size | Sell it on Merkado: list free, 2 listings, WhatsApp (monthly Sell story) | Sellers | drafted |
-| Fri 27 Nov | 12:15 | Feed (violet) | Car carousel (5 slides) | Price drops this week: Honda Civic 2020 (CuraCars), Chevrolet Tahoe 2009 (Carteam), Haval H6 2020 (Economic) | Verified price drops | drafted |
+| Mon 23 Nov | 12:15 | Feed (violet) | M2 layout, new design | Partner with Merkado for dealerships and agencies, live counts 22 Nov (261 cars, 528 real estate). Option B drafted, option A on Social HQ | Partners | scheduled (approved 22 Nov) |
+| Mon 23 Nov | 19:00 | Story | S1 (style C) | Land in Vista Royal, Jan Thiel, 2.390 m², XCG 3.800.500,-, the first property listed directly on Merkado (private seller, 16 Nov) | Native listing, just added | scheduled (approved 22 Nov) |
+| Wed 25 Nov | 12:15 | Feed (paper) | Real estate carousel (5 slides) | Rentals under XCG 3.000: Brakkeput Abou (Real Estate Caribe), Bottelier (Moret), Jan Thiel (At Home) | Bargain | scheduled (approved 22 Nov) |
+| Thu 26 Nov | 19:00 | Story | M2 layout, story size | Sell it on Merkado: list free, 2 listings, WhatsApp (monthly Sell story) | Sellers | scheduled (approved 22 Nov) |
+| Fri 27 Nov | 12:15 | Feed (violet) | Car carousel (5 slides) | Price drops this week: Honda Civic 2020 (CuraCars), Chevrolet Tahoe 2009 (Carteam), Haval H6 2020 (Economic) | Verified price drops | scheduled (approved 22 Nov) |
 
 ### Week 49 and later (planned)
 

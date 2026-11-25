@@ -3,10 +3,10 @@
   "branch": "main",
   "last_commit": "c834675",
   "last_commit_title": "Merge pull request #38 from Kolektivo/perf/cacheable-landing-pages",
-  "last_checked": "2026-11-22",
+  "last_checked": "2026-11-25",
   "counts": {
-    "date": "2026-11-08",
-    "cars_active": 262,
+    "date": "2026-11-25",
+    "cars_active": 261,
     "real_estate_active": 567,
     "real_estate_map_endpoint": 400,
     "source": "merkado.cw /api/cars/count and /api/real-estate (all pages), 8 Nov 2026. The map endpoint caps at 400."

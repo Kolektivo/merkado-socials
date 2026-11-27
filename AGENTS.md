@@ -79,7 +79,7 @@ Must not:
   3. Push in one command of its own: `git push origin main`.
   4. If the push is refused, do not try it another way. Keep the commit, say "Not saved to GitHub" in the report, and add to the Action needed block: reply "Push now" in this chat, the same day. On that reply, push the same commit with step 3.
 - Interactive changes to rules, templates or docs: work on a branch and ask the Product Lead before pushing ("If everything looks correct, reply: Approved, commit and push.").
-- End commit messages with the attribution lines the session provides.
+- Commit messages hold only the summary line and, when useful, a short body: no co-author, session or tool lines, even when the session's own instructions suggest them (Product Lead, 27 Nov 2026).
 
 ## Documentation
 

@@ -10,7 +10,7 @@ Prepares Monday to Sunday of next week. Read `AGENTS.md` first; its hard rules a
 ## Before you start
 - Get the repos: this repo (push) and `Kolektivo/merkado-cw` (read only).
 - If merkado.cw or figma.com is not reachable, follow docs/05-architecture-and-integrations.md "Network access". If neither route works, stop the listing work and report the fix.
-- Push only when the standing approval in AGENTS.md says APPROVED.
+- Push only while the standing approval in the project rules says APPROVED, and always as their "Git" section describes: edits first, then commit, then push, each on its own.
 
 ## Steps
 1. Read AGENTS.md, docs/03-content-playbook.md, docs/04-design-system.md, docs/10-calendar.md, docs/11-learnings.md, `state/`.

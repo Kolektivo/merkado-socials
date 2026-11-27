@@ -73,6 +73,11 @@ Must not:
 ## Git
 
 - Scheduled runs commit straight to `main` of this repo (assets, captions, state, calendar, learnings), only when the standing approval below says APPROVED.
+- How a scheduled run saves (the cloud's safety check has refused combined edit-and-push commands, 24 and 27 Nov 2026):
+  1. Make every file change first, with the file tools or a script, never in the same command as Git.
+  2. Commit in one command of its own: `git add` with only the allowed paths, then `git commit`.
+  3. Push in one command of its own: `git push origin main`.
+  4. If the push is refused, do not try it another way. Keep the commit, say "Not saved to GitHub" in the report, and add to the Action needed block: reply "Push now" in this chat, the same day. On that reply, push the same commit with step 3.
 - Interactive changes to rules, templates or docs: work on a branch and ask the Product Lead before pushing ("If everything looks correct, reply: Approved, commit and push.").
 - End commit messages with the attribution lines the session provides.
 

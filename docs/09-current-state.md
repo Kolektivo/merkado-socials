@@ -1,28 +1,29 @@
 # 09 Current state
 
-Last updated: 28 Oct 2026.
+Last updated: 27 Nov 2026.
 
 ## Working
-- Repo set up in Claude Code on the Product Lead's PC (28 Oct). From there Figma, Metricool and merkado.cw all work.
-- Figma file cleaned up on 29 Oct: Templates v2 (page 88:182, 14 templates), Posts · 2026-W44 (88:183), Posts · 2026-W45 (88:184), Posts · upcoming drafts (88:185), One-off library (88:186), Brand assets (10:18), Product Lead · iterations (88:187). Old rounds deleted; restorable from version history.
-- Social strategy written (docs/01) and on the Social HQ page, with Templates v2, the One-off library and the reply kit (captions/reply-kit.md).
-- Metricool connected: Facebook Page "Merkado Curaçao" and Instagram merkado.cw. Baseline 22 Oct: Instagram 13 followers, Facebook 4. No posts yet on either.
-- Launch Thu 29 Oct 2026. Scheduled in Metricool after the Product Lead's approval in chat (28 Oct): launch post Thu 12:15, car carousel Fri 30 Oct 12:15 (city cars under XCG 20.000), real estate carousel Wed 4 Nov 18:30 (rentals under XCG 3.000). The Thu 19:00 story (Kia Sorento, style C) is scheduled too (approved 29 Oct). Story styles B and C chosen 29 Oct (Figma page `Round 10 · Story options (28 Oct)`). The carousel look (Round 9) is approved. Feed alternates paper and violet for the grid (29 Oct).
-- Profiles are live as the Product Lead set them (name, short bio, link to merkado.cw). Good enough for launch; optional tweak in `captions/profile.md`.
-- Private (native) listings may be posted without a written yes (28 Oct).
-- Social HQ page for the Product Lead, now with the weekly approval board (launch week filled in, 28 Oct).
-- Approval works in chat: the Product Lead replies, the agent schedules in Metricool (28 Oct).
-- Market scan (`scripts/market_scan.py`): first price snapshot 28 Oct (247 cars, 360 homes); ranked picks with reasons. Price drops become visible once daily snapshots run.
-- News radar: merkado-cw main unchanged since 22 Oct (e9b246c). Business pages are live (Weber & Weber), but its page showed no listings on 29 Oct, so the What's new post waits. Payments still limited to the Product Lead; Property Match still private beta.
+- Live on Facebook (Page "Merkado Curaçao") and Instagram (@merkado.cw) since Thu 29 Oct 2026. Weeks 44 to 47 are published; week 48 (23 to 29 Nov) was approved in chat on 22 Nov and scheduled unchanged. Per-post status: `docs/10-calendar.md` and `state/posts.csv`.
+- Cloud routines run on their own (checked 27 Nov): "Merkado social weekly run" (Sundays 16:37 Curaçao, Opus) and "Merkado social daily check" (daily 07:36, Sonnet), both enabled, both on the Merkado cloud environment, connectors Figma and Metricool. Every daily check since 15 Nov ran and succeeded; the weekly runs of 15 and 22 Nov drafted, captioned and, after approval, scheduled their weeks. Details: docs/05-architecture-and-integrations.md.
+- Approval works in chat: the weekly run sends "Week N is ready", the Product Lead replies, the run schedules exactly the approved posts.
+- Market scan (`scripts/market_scan.py`): a daily price snapshot since 28 Oct builds our own price history; verified price drops now feed posts (the Fri 27 Nov price-drop carousel).
+- Figma: Templates v2 (88:182) locked; a posts page per week (W46 110:304, W47 122:245, W48 136:148).
+- Social HQ page with the weekly approval board, updated by each weekly run.
+- Repo works from its new folder on the Product Lead's PC (moved 26 Nov; checked 27 Nov: skills present, market scan runs, local main matches GitHub).
+- Payments are open to every seller on merkado.cw since 30 Oct (Featured XCG 50 for 7 days, extra listing XCG 15); the daily check looks for Featured listings every morning (none on 24 to 27 Nov).
 
 ## Blocked or waiting
-- Automatic runs: two cloud routines created 29 Oct 2026, connectors Figma and Metricool only. Weekly run Sundays 16:37 (first run Sun 1 Nov), daily check 07:36 (first run Fri 30 Oct). Not yet tested by a real run.
-- Standing approval for scheduled runs to push: APPROVED 29 Oct 2026 (AGENTS.md).
-- Figma Weave linked 28 Oct, but the free plan allows only 2 runs from the agent (both used). AI photo extension is switched off (not scalable).
-- Cloud environment network access: set by the Product Lead on 28 Oct (Custom list from docs/05). First tested by the daily check on 30 Oct.
+- Saving from cloud runs: on 24 and 27 Nov the cloud's safety check refused the run's combined edit-and-push command. The 24 Nov snapshot never reached GitHub, and the 27 Nov pre-flight notes were not logged (the pre-flight itself passed). The save steps in the project rules ("Git" section) were split on 27 Nov so each step runs on its own; not yet proven by a cloud run.
+- Growth is flat: Instagram 16 followers (22 Nov, from 13 on 22 Oct), reach 5 to 8 per post, no saves or shares since launch week. The 8-week review on 20 Dec weighs Reels made from the carousels.
+- Instagram stories can fail on their own: the Tue 17 Nov story published on Facebook only ("media cannot be found" on Instagram). Proposed in docs/11-learnings.md (22 Nov): the daily check looks at each story's status after 19:00. Not yet part of the daily check.
+- Seller sites the cloud run cannot always read: economic.cw (403 at times; answered again on 22 Nov), realestatecaribe.com (refused on 24 Nov). Those listings are then pre-flighted on merkado.cw only.
+- merkado.cw returned 402 once (21 Nov morning); that day's snapshot was skipped and the site was back the same day.
+- Milestones reached but not posted yet (state/radar.json): 250 active cars (30 Oct), 400 and 500 real estate listings (by 8 Nov).
+- Figma Weave: free plan used up; AI photo extension is switched off.
 - Metricool review flow (approve by email) not tested; drafts are the default.
 
 ## Known data issues (merkado.cw)
 - merkado.cw returns a normal page for listings that do not exist; the pre-flight checks the API instead (28 Oct).
 - Economic Auto Center: no mileage on any listing, several slugs disagree with titles (28 Oct). CuraCars: three older cars with impossible mileage (28 Oct).
 - Two RE/MAX listings with coordinates in the sea (Harmonie, Blue Bay), 22 Oct.
+- Joubert Realty rentals show about 1.6% more on merkado.cw than on Joubert's own pages (22 Nov). The first native property (Vista Royal land) has a map screenshot as its first photo (22 Nov).

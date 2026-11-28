@@ -1,9 +1,9 @@
 {
   "repo": "Kolektivo/merkado-cw",
   "branch": "main",
-  "last_commit": "c834675",
-  "last_commit_title": "Merge pull request #38 from Kolektivo/perf/cacheable-landing-pages",
-  "last_checked": "2026-11-26",
+  "last_commit": "1d5fb58e",
+  "last_commit_title": "Merge pull request #39 from Kolektivo/docs/current-state-cached-landing-pages",
+  "last_checked": "2026-11-28",
   "counts": {
     "date": "2026-11-25",
     "cars_active": 261,
